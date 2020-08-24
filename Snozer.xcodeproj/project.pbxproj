@@ -1,0 +1,1781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094F0B44241D46F600A01C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B42241D46F500A01C97 /* LaunchScreen.storyboard */; };
+		094F0C6B241D475700A01C97 /* HeaderImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B48241D475500A01C97 /* HeaderImagesView.swift */; };
+		094F0C6C241D475700A01C97 /* MatchTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B4A241D475500A01C97 /* MatchTCell.xib */; };
+		094F0C6D241D475700A01C97 /* MatchCenterHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B4B241D475500A01C97 /* MatchCenterHeaderCell.xib */; };
+		094F0C6E241D475700A01C97 /* OfferImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B4C241D475500A01C97 /* OfferImageCell.swift */; };
+		094F0C6F241D475700A01C97 /* MatchCenterHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B4D241D475500A01C97 /* MatchCenterHeaderCell.swift */; };
+		094F0C70241D475700A01C97 /* NoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B4E241D475500A01C97 /* NoDataCell.swift */; };
+		094F0C71241D475700A01C97 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B4F241D475500A01C97 /* ImageCollectionCell.swift */; };
+		094F0C72241D475700A01C97 /* MatchTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B50241D475500A01C97 /* MatchTCell.swift */; };
+		094F0C73241D475700A01C97 /* ImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B51241D475500A01C97 /* ImageCollectionCell.xib */; };
+		094F0C74241D475700A01C97 /* OfferImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B52241D475500A01C97 /* OfferImageCell.xib */; };
+		094F0C75241D475700A01C97 /* NoDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B53241D475500A01C97 /* NoDataCell.xib */; };
+		094F0C76241D475700A01C97 /* HeaderImagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B54241D475500A01C97 /* HeaderImagesView.xib */; };
+		094F0C77241D475700A01C97 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B55241D475500A01C97 /* HomeVC.swift */; };
+		094F0C78241D475700A01C97 /* ContestJoinedTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B58241D475500A01C97 /* ContestJoinedTCell.xib */; };
+		094F0C79241D475700A01C97 /* PlayerStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B59241D475500A01C97 /* PlayerStatsCell.swift */; };
+		094F0C7A241D475700A01C97 /* PlayerScoreTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B5A241D475500A01C97 /* PlayerScoreTCell.swift */; };
+		094F0C7B241D475700A01C97 /* PlayerStatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B5B241D475500A01C97 /* PlayerStatsCell.xib */; };
+		094F0C7C241D475700A01C97 /* PlayerScoreTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B5C241D475500A01C97 /* PlayerScoreTCell.xib */; };
+		094F0C7D241D475700A01C97 /* ContestJoinedTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B5D241D475500A01C97 /* ContestJoinedTCell.swift */; };
+		094F0C7E241D475700A01C97 /* PlayerRealScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B5E241D475500A01C97 /* PlayerRealScoreVC.swift */; };
+		094F0C7F241D475700A01C97 /* PlayerStatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B5F241D475500A01C97 /* PlayerStatsVC.swift */; };
+		094F0C80241D475700A01C97 /* MyContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B60241D475500A01C97 /* MyContestVC.swift */; };
+		094F0C81241D475700A01C97 /* WinningBreakUpOptionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B62241D475500A01C97 /* WinningBreakUpOptionVC.xib */; };
+		094F0C82241D475700A01C97 /* ChooseWinningBreakVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B63241D475500A01C97 /* ChooseWinningBreakVC.xib */; };
+		094F0C83241D475700A01C97 /* ChooseWinningBreakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B64241D475500A01C97 /* ChooseWinningBreakVC.swift */; };
+		094F0C84241D475700A01C97 /* WinningBreakUpOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B65241D475500A01C97 /* WinningBreakUpOptionVC.swift */; };
+		094F0C85241D475700A01C97 /* PrivateWinningTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B67241D475500A01C97 /* PrivateWinningTCell.swift */; };
+		094F0C86241D475700A01C97 /* PrivateCreateContestTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B68241D475500A01C97 /* PrivateCreateContestTCell.xib */; };
+		094F0C87241D475700A01C97 /* PrivateCreateContestTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B69241D475500A01C97 /* PrivateCreateContestTCell.swift */; };
+		094F0C88241D475700A01C97 /* InviteContestTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B6A241D475500A01C97 /* InviteContestTCell.swift */; };
+		094F0C89241D475700A01C97 /* WinningBreakupOptionTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B6B241D475500A01C97 /* WinningBreakupOptionTCell.xib */; };
+		094F0C8A241D475700A01C97 /* WinningBreakupOptionTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B6C241D475500A01C97 /* WinningBreakupOptionTCell.swift */; };
+		094F0C8B241D475700A01C97 /* PrivateWinningTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B6D241D475500A01C97 /* PrivateWinningTCell.xib */; };
+		094F0C8C241D475700A01C97 /* InviteContestTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B6E241D475500A01C97 /* InviteContestTCell.xib */; };
+		094F0C8D241D475700A01C97 /* PrivateContestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B6F241D475500A01C97 /* PrivateContestHeader.swift */; };
+		094F0C8E241D475700A01C97 /* PrivateContestHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B70241D475500A01C97 /* PrivateContestHeader.xib */; };
+		094F0C8F241D475700A01C97 /* PrivateContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B71241D475500A01C97 /* PrivateContestVC.swift */; };
+		094F0C90241D475700A01C97 /* PlayerRealInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B73241D475500A01C97 /* PlayerRealInfoVC.swift */; };
+		094F0C91241D475700A01C97 /* TeamTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B75241D475500A01C97 /* TeamTCell.swift */; };
+		094F0C92241D475700A01C97 /* PlayerRealInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B76241D475500A01C97 /* PlayerRealInfoCell.xib */; };
+		094F0C93241D475700A01C97 /* TeamSelectTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B77241D475500A01C97 /* TeamSelectTCell.swift */; };
+		094F0C94241D475700A01C97 /* TeamSelectTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B78241D475500A01C97 /* TeamSelectTCell.xib */; };
+		094F0C95241D475700A01C97 /* PlayerRealInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B79241D475500A01C97 /* PlayerRealInfoCell.swift */; };
+		094F0C96241D475700A01C97 /* TeamTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B7A241D475500A01C97 /* TeamTCell.xib */; };
+		094F0C97241D475700A01C97 /* ShareTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B7B241D475500A01C97 /* ShareTeamVC.swift */; };
+		094F0C98241D475700A01C97 /* MyTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B7C241D475500A01C97 /* MyTeamVC.swift */; };
+		094F0C99241D475700A01C97 /* CustomTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B7E241D475500A01C97 /* CustomTabbarViewController.swift */; };
+		094F0C9A241D475700A01C97 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B7F241D475500A01C97 /* MyNavigationController.swift */; };
+		094F0C9B241D475700A01C97 /* KYCPanBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B81241D475500A01C97 /* KYCPanBankViewController.swift */; };
+		094F0C9C241D475700A01C97 /* InviteeFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B82241D475500A01C97 /* InviteeFriendsVC.swift */; };
+		094F0C9D241D475700A01C97 /* InviteeFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B83241D475500A01C97 /* InviteeFriendCell.xib */; };
+		094F0C9E241D475700A01C97 /* InviteeFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B84241D475500A01C97 /* InviteeFriendCell.swift */; };
+		094F0C9F241D475700A01C97 /* KYCEmailMobileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B85241D475500A01C97 /* KYCEmailMobileViewController.swift */; };
+		094F0CA0241D475700A01C97 /* InviteFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B86241D475500A01C97 /* InviteFriendsVC.swift */; };
+		094F0CA1241D475700A01C97 /* CustomerFeedsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B87241D475500A01C97 /* CustomerFeedsVC.swift */; };
+		094F0CA2241D475700A01C97 /* WithdrawalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B88241D475500A01C97 /* WithdrawalViewController.swift */; };
+		094F0CA3241D475700A01C97 /* KYCInputMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B8A241D475500A01C97 /* KYCInputMessageTableViewCell.swift */; };
+		094F0CA4241D475700A01C97 /* KYCInputMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B8B241D475500A01C97 /* KYCInputMessageTableViewCell.xib */; };
+		094F0CA5241D475700A01C97 /* SF11App.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B8D241D475500A01C97 /* SF11App.ipa */; };
+		094F0CA6241D475700A01C97 /* Packaging.log in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B8E241D475500A01C97 /* Packaging.log */; };
+		094F0CA7241D475700A01C97 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B8F241D475500A01C97 /* ExportOptions.plist */; };
+		094F0CA8241D475700A01C97 /* DistributionSummary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B90241D475500A01C97 /* DistributionSummary.plist */; };
+		094F0CA9241D475700A01C97 /* KYCInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B91241D475500A01C97 /* KYCInputTableViewCell.xib */; };
+		094F0CAA241D475700A01C97 /* cellCashContestEarnings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B92241D475500A01C97 /* cellCashContestEarnings.xib */; };
+		094F0CAB241D475700A01C97 /* MoreTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B93241D475500A01C97 /* MoreTCell.xib */; };
+		094F0CAC241D475700A01C97 /* UploadProofTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B94241D475500A01C97 /* UploadProofTableViewCell.swift */; };
+		094F0CAD241D475700A01C97 /* UploadProofTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0B95241D475500A01C97 /* UploadProofTableViewCell.xib */; };
+		094F0CAE241D475700A01C97 /* cellCashContestEarnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B96241D475500A01C97 /* cellCashContestEarnings.swift */; };
+		094F0CAF241D475700A01C97 /* KYCInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B97241D475500A01C97 /* KYCInputTableViewCell.swift */; };
+		094F0CB0241D475700A01C97 /* MoreTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B98241D475500A01C97 /* MoreTCell.swift */; };
+		094F0CB1241D475700A01C97 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B99241D475500A01C97 /* WalletVC.swift */; };
+		094F0CB2241D475700A01C97 /* MyWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B9A241D475500A01C97 /* MyWebVC.swift */; };
+		094F0CB3241D475700A01C97 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B9B241D475500A01C97 /* MoreVC.swift */; };
+		094F0CB4241D475700A01C97 /* HelpDeskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B9C241D475500A01C97 /* HelpDeskVC.swift */; };
+		094F0CB5241D475700A01C97 /* ContestInviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B9D241D475500A01C97 /* ContestInviteVC.swift */; };
+		094F0CB6241D475700A01C97 /* CashContestEarningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B9E241D475500A01C97 /* CashContestEarningVC.swift */; };
+		094F0CB7241D475700A01C97 /* KYCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0B9F241D475500A01C97 /* KYCViewController.swift */; };
+		094F0CB8241D475700A01C97 /* PlayerTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BA3241D475500A01C97 /* PlayerTypeCell.swift */; };
+		094F0CB9241D475700A01C97 /* PlayerTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BA4241D475500A01C97 /* PlayerTypeCell.xib */; };
+		094F0CBA241D475700A01C97 /* PlayerLayoutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BA5241D475500A01C97 /* PlayerLayoutCollectionViewCell.swift */; };
+		094F0CBB241D475700A01C97 /* PlayerLayoutCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BA6241D475500A01C97 /* PlayerLayoutCollectionViewCell.xib */; };
+		094F0CBC241D475700A01C97 /* TeamPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BA7241D475500A01C97 /* TeamPreviewController.swift */; };
+		094F0CBD241D475700A01C97 /* SelectedCaptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BA8241D475500A01C97 /* SelectedCaptionVC.swift */; };
+		094F0CBE241D475700A01C97 /* CreateTeamPlayerStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BAA241D475500A01C97 /* CreateTeamPlayerStatsCell.swift */; };
+		094F0CBF241D475700A01C97 /* SelectedCaptionTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BAB241D475500A01C97 /* SelectedCaptionTCell.xib */; };
+		094F0CC0241D475700A01C97 /* CreateTeamTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BAC241D475500A01C97 /* CreateTeamTCell.swift */; };
+		094F0CC1241D475700A01C97 /* CreateTeamTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BAD241D475500A01C97 /* CreateTeamTCell.xib */; };
+		094F0CC2241D475700A01C97 /* SelectedCaptionTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BAE241D475500A01C97 /* SelectedCaptionTCell.swift */; };
+		094F0CC3241D475700A01C97 /* CreateTeamPlayerStatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BAF241D475500A01C97 /* CreateTeamPlayerStatsCell.xib */; };
+		094F0CC4241D475700A01C97 /* CreateTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB0241D475500A01C97 /* CreateTeamVC.swift */; };
+		094F0CC5241D475700A01C97 /* CreateFootballTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB1241D475500A01C97 /* CreateFootballTeamVC.swift */; };
+		094F0CC6241D475700A01C97 /* CreateTeamPlayerStatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB2241D475500A01C97 /* CreateTeamPlayerStatsVC.swift */; };
+		094F0CC7241D475700A01C97 /* CreateKabaddiTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB3241D475500A01C97 /* CreateKabaddiTeamVC.swift */; };
+		094F0CC8241D475700A01C97 /* OtpVerifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB5241D475500A01C97 /* OtpVerifyVC.swift */; };
+		094F0CC9241D475700A01C97 /* LoginWithEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB6241D475500A01C97 /* LoginWithEmailVC.swift */; };
+		094F0CCA241D475700A01C97 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB7241D475500A01C97 /* LandingVC.swift */; };
+		094F0CCB241D475700A01C97 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB8241D475500A01C97 /* ResetPasswordVC.swift */; };
+		094F0CCC241D475700A01C97 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BB9241D475500A01C97 /* SignUpVC.swift */; };
+		094F0CCD241D475700A01C97 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BBA241D475500A01C97 /* SplashController.swift */; };
+		094F0CCE241D475700A01C97 /* CustomerInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BBC241D475500A01C97 /* CustomerInfoVC.swift */; };
+		094F0CCF241D475800A01C97 /* RecentTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BBD241D475500A01C97 /* RecentTransactionsViewController.swift */; };
+		094F0CD0241D475800A01C97 /* EditProfleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BBE241D475500A01C97 /* EditProfleVC.swift */; };
+		094F0CD1241D475800A01C97 /* AddCashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BBF241D475500A01C97 /* AddCashVC.swift */; };
+		094F0CD2241D475800A01C97 /* LeaderBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC0241D475500A01C97 /* LeaderBoardVC.swift */; };
+		094F0CD3241D475800A01C97 /* AvtarSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC1241D475500A01C97 /* AvtarSelectionVC.swift */; };
+		094F0CD4241D475800A01C97 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC2241D475500A01C97 /* ChangePasswordVC.swift */; };
+		094F0CD5241D475800A01C97 /* TransactionHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC3241D475500A01C97 /* TransactionHistoryVC.swift */; };
+		094F0CD6241D475800A01C97 /* SeriesCustomerMatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC4241D475500A01C97 /* SeriesCustomerMatchVC.swift */; };
+		094F0CD7241D475800A01C97 /* FollowersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC5241D475500A01C97 /* FollowersVC.swift */; };
+		094F0CD8241D475800A01C97 /* PostTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BC7241D475500A01C97 /* PostTCell.xib */; };
+		094F0CD9241D475800A01C97 /* LeaderBoardTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BC8241D475500A01C97 /* LeaderBoardTCell.xib */; };
+		094F0CDA241D475800A01C97 /* LeaderBoardTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BC9241D475500A01C97 /* LeaderBoardTCell.swift */; };
+		094F0CDB241D475800A01C97 /* NotificationTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BCA241D475500A01C97 /* NotificationTCell.swift */; };
+		094F0CDC241D475800A01C97 /* PostTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BCB241D475500A01C97 /* PostTCell.swift */; };
+		094F0CDD241D475800A01C97 /* FollowTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BCC241D475500A01C97 /* FollowTCell.xib */; };
+		094F0CDE241D475800A01C97 /* RecentTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BCD241D475500A01C97 /* RecentTransactionTableViewCell.xib */; };
+		094F0CDF241D475800A01C97 /* SeriesContestTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BCE241D475500A01C97 /* SeriesContestTCell.swift */; };
+		094F0CE0241D475800A01C97 /* RecentTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BCF241D475500A01C97 /* RecentTransactionTableViewCell.swift */; };
+		094F0CE1241D475800A01C97 /* RecentTransactionDate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BD0241D475500A01C97 /* RecentTransactionDate.xib */; };
+		094F0CE2241D475800A01C97 /* FollowTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BD1241D475500A01C97 /* FollowTCell.swift */; };
+		094F0CE3241D475800A01C97 /* NotificationTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BD2241D475500A01C97 /* NotificationTCell.xib */; };
+		094F0CE4241D475800A01C97 /* SeriesContestTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BD3241D475500A01C97 /* SeriesContestTCell.xib */; };
+		094F0CE5241D475800A01C97 /* PostListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BD4241D475500A01C97 /* PostListVC.swift */; };
+		094F0CE6241D475800A01C97 /* ReactionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BD5241D475500A01C97 /* ReactionListVC.swift */; };
+		094F0CE7241D475800A01C97 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BD6241D475500A01C97 /* NotificationVC.swift */; };
+		094F0CE8241D475800A01C97 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BD7241D475500A01C97 /* AccountVC.swift */; };
+		094F0CE9241D475800A01C97 /* AllUserReactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BD8241D475500A01C97 /* AllUserReactionsVC.swift */; };
+		094F0CEA241D475800A01C97 /* TeamListJoinContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BDA241D475500A01C97 /* TeamListJoinContestVC.swift */; };
+		094F0CEB241D475800A01C97 /* ContestDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BDC241D475500A01C97 /* ContestDetailCell.xib */; };
+		094F0CEC241D475800A01C97 /* BeatExpertDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BDD241D475500A01C97 /* BeatExpertDetailCell.xib */; };
+		094F0CED241D475800A01C97 /* LeaderboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BDE241D475500A01C97 /* LeaderboardCell.xib */; };
+		094F0CEE241D475800A01C97 /* ContestDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BDF241D475500A01C97 /* ContestDetailCell.swift */; };
+		094F0CEF241D475800A01C97 /* LeaderboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE0241D475500A01C97 /* LeaderboardCell.swift */; };
+		094F0CF0241D475800A01C97 /* LeaderboardHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE1241D475500A01C97 /* LeaderboardHeaderCell.swift */; };
+		094F0CF1241D475800A01C97 /* BeatExpertDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE2241D475500A01C97 /* BeatExpertDetailCell.swift */; };
+		094F0CF2241D475800A01C97 /* ContestDetailCompletedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BE3241D475500A01C97 /* ContestDetailCompletedCell.xib */; };
+		094F0CF3241D475800A01C97 /* MatchScoreTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BE4241D475500A01C97 /* MatchScoreTCell.xib */; };
+		094F0CF4241D475800A01C97 /* LeaderboardHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BE5241D475500A01C97 /* LeaderboardHeaderCell.xib */; };
+		094F0CF5241D475800A01C97 /* MatchScoreTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE6241D475500A01C97 /* MatchScoreTCell.swift */; };
+		094F0CF6241D475800A01C97 /* ContestDetailCompletedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE7241D475500A01C97 /* ContestDetailCompletedCell.swift */; };
+		094F0CF7241D475800A01C97 /* BeatExpertWinningBreakupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE8241D475500A01C97 /* BeatExpertWinningBreakupVC.swift */; };
+		094F0CF8241D475800A01C97 /* ContestDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BE9241D475500A01C97 /* ContestDetailVC.swift */; };
+		094F0CF9241D475800A01C97 /* JoinedContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BEA241D475500A01C97 /* JoinedContestVC.swift */; };
+		094F0CFA241D475800A01C97 /* ShareContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BEB241D475500A01C97 /* ShareContestVC.swift */; };
+		094F0CFB241D475800A01C97 /* StartedContestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BEC241D475500A01C97 /* StartedContestsVC.swift */; };
+		094F0CFC241D475800A01C97 /* TeamSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BED241D475500A01C97 /* TeamSelectionViewController.swift */; };
+		094F0CFD241D475800A01C97 /* WinningBreakupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BEE241D475500A01C97 /* WinningBreakupsVC.swift */; };
+		094F0CFE241D475800A01C97 /* BeatTheExpertTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BF0241D475500A01C97 /* BeatTheExpertTCell.xib */; };
+		094F0CFF241D475800A01C97 /* ContestViewMoreFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BF1241D475500A01C97 /* ContestViewMoreFooter.xib */; };
+		094F0D00241D475800A01C97 /* ContestTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BF2241D475500A01C97 /* ContestTCell.xib */; };
+		094F0D01241D475800A01C97 /* CategoryHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BF3241D475500A01C97 /* CategoryHeaderCell.swift */; };
+		094F0D02241D475800A01C97 /* BeatTheExpertTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BF4241D475500A01C97 /* BeatTheExpertTCell.swift */; };
+		094F0D03241D475800A01C97 /* ContestTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BF5241D475500A01C97 /* ContestTCell.swift */; };
+		094F0D04241D475800A01C97 /* ContestViewMoreFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BF6241D475500A01C97 /* ContestViewMoreFooter.swift */; };
+		094F0D05241D475800A01C97 /* CategoryHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0BF7241D475500A01C97 /* CategoryHeaderCell.xib */; };
+		094F0D06241D475800A01C97 /* ContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BF8241D475500A01C97 /* ContestVC.swift */; };
+		094F0D07241D475800A01C97 /* JoinConfirmContestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BF9241D475500A01C97 /* JoinConfirmContestVC.swift */; };
+		094F0D08241D475800A01C97 /* BeatTheExpertJoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BFA241D475500A01C97 /* BeatTheExpertJoinVC.swift */; };
+		094F0D09241D475800A01C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BFB241D475500A01C97 /* SceneDelegate.swift */; };
+		094F0D0A241D475800A01C97 /* CustomDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BFD241D475500A01C97 /* CustomDismissAnimationController.swift */; };
+		094F0D0B241D475800A01C97 /* EMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0BFF241D475500A01C97 /* EMAlertController.swift */; };
+		094F0D0C241D475800A01C97 /* EMAlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C00241D475500A01C97 /* EMAlertTextField.swift */; };
+		094F0D0D241D475800A01C97 /* EMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C01241D475500A01C97 /* EMAlertAction.swift */; };
+		094F0D0E241D475800A01C97 /* UIColor+EMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C02241D475600A01C97 /* UIColor+EMAlertController.swift */; };
+		094F0D0F241D475800A01C97 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C03241D475600A01C97 /* AlignedCollectionViewFlowLayout.swift */; };
+		094F0D10241D475800A01C97 /* NavHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C05241D475600A01C97 /* NavHeaderView.swift */; };
+		094F0D11241D475800A01C97 /* NavHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C06241D475600A01C97 /* NavHeaderView.xib */; };
+		094F0D12241D475800A01C97 /* CustomPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C07241D475600A01C97 /* CustomPresentAnimationController.swift */; };
+		094F0D13241D475800A01C97 /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C08241D475600A01C97 /* KMPlaceholderTextView.swift */; };
+		094F0D14241D475800A01C97 /* ActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C0A241D475600A01C97 /* ActiveLabel.swift */; };
+		094F0D15241D475800A01C97 /* RegexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C0B241D475600A01C97 /* RegexParser.swift */; };
+		094F0D16241D475800A01C97 /* StringTrimExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C0C241D475600A01C97 /* StringTrimExtension.swift */; };
+		094F0D17241D475800A01C97 /* ActiveBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C0D241D475600A01C97 /* ActiveBuilder.swift */; };
+		094F0D18241D475800A01C97 /* ActiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C0E241D475600A01C97 /* ActiveType.swift */; };
+		094F0D19241D475800A01C97 /* GradientProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C10241D475600A01C97 /* GradientProgress.swift */; };
+		094F0D1A241D475800A01C97 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C12241D475600A01C97 /* SkyFloatingLabelTextField.swift */; };
+		094F0D1B241D475800A01C97 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C13241D475600A01C97 /* UITextField+fixCaretPosition.swift */; };
+		094F0D1C241D475800A01C97 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C14241D475600A01C97 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		094F0D1D241D475800A01C97 /* TourPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C17241D475600A01C97 /* TourPoints.swift */; };
+		094F0D1E241D475800A01C97 /* MatchPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C18241D475600A01C97 /* MatchPoint.swift */; };
+		094F0D1F241D475800A01C97 /* LeaguePlayerPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C19241D475600A01C97 /* LeaguePlayerPoints.swift */; };
+		094F0D20241D475800A01C97 /* LivePlayerPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C1A241D475600A01C97 /* LivePlayerPoints.swift */; };
+		094F0D21241D475800A01C97 /* PostShareDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C1B241D475600A01C97 /* PostShareDto.swift */; };
+		094F0D22241D475800A01C97 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C1C241D475600A01C97 /* LoginModel.swift */; };
+		094F0D23241D475800A01C97 /* PrivateWinningOptionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C1D241D475600A01C97 /* PrivateWinningOptionDto.swift */; };
+		094F0D24241D475800A01C97 /* PlayerStatsDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C1E241D475600A01C97 /* PlayerStatsDto.swift */; };
+		094F0D25241D475800A01C97 /* CommonDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C1F241D475600A01C97 /* CommonDto.swift */; };
+		094F0D26241D475800A01C97 /* ResponseDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C20241D475600A01C97 /* ResponseDto.swift */; };
+		094F0D27241D475800A01C97 /* ReferralDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C21241D475600A01C97 /* ReferralDto.swift */; };
+		094F0D28241D475800A01C97 /* LeaderboardDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C23241D475600A01C97 /* LeaderboardDto.swift */; };
+		094F0D29241D475800A01C97 /* HomeMatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C25241D475600A01C97 /* HomeMatchList.swift */; };
+		094F0D2A241D475800A01C97 /* HeaderModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C26241D475600A01C97 /* HeaderModal.swift */; };
+		094F0D2B241D475800A01C97 /* SplashVersion2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C27241D475600A01C97 /* SplashVersion2.swift */; };
+		094F0D2C241D475800A01C97 /* NotificationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C28241D475600A01C97 /* NotificationDto.swift */; };
+		094F0D2D241D475800A01C97 /* ProfileUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C2A241D475600A01C97 /* ProfileUserInfo.swift */; };
+		094F0D2E241D475800A01C97 /* CustomerInfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C2B241D475600A01C97 /* CustomerInfoDto.swift */; };
+		094F0D2F241D475800A01C97 /* AmountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C2D241D475600A01C97 /* AmountDetail.swift */; };
+		094F0D30241D475800A01C97 /* Refer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C2E241D475600A01C97 /* Refer.swift */; };
+		094F0D31241D475800A01C97 /* TxnHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C2F241D475600A01C97 /* TxnHistory.swift */; };
+		094F0D32241D475800A01C97 /* BankAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C30241D475600A01C97 /* BankAccountInfo.swift */; };
+		094F0D33241D475800A01C97 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C31241D475600A01C97 /* AccountInfo.swift */; };
+		094F0D34241D475800A01C97 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C33241D475600A01C97 /* PlayerList.swift */; };
+		094F0D35241D475800A01C97 /* Jointeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C34241D475600A01C97 /* Jointeam.swift */; };
+		094F0D36241D475800A01C97 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C35241D475600A01C97 /* PlayerData.swift */; };
+		094F0D37241D475800A01C97 /* SavedTeamModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C36241D475600A01C97 /* SavedTeamModal.swift */; };
+		094F0D38241D475800A01C97 /* teamPrevieModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C37241D475600A01C97 /* teamPrevieModal.swift */; };
+		094F0D39241D475800A01C97 /* AddCashCallbackDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C38241D475600A01C97 /* AddCashCallbackDto.swift */; };
+		094F0D3A241D475800A01C97 /* PaidLeague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C3A241D475600A01C97 /* PaidLeague.swift */; };
+		094F0D3B241D475800A01C97 /* ContestLeaderboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C3B241D475600A01C97 /* ContestLeaderboardData.swift */; };
+		094F0D3C241D475800A01C97 /* ContestCompleteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C3C241D475600A01C97 /* ContestCompleteDetail.swift */; };
+		094F0D3D241D475800A01C97 /* LeagueLiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C3D241D475600A01C97 /* LeagueLiveData.swift */; };
+		094F0D3E241D475800A01C97 /* ContestCateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C3E241D475600A01C97 /* ContestCateModel.swift */; };
+		094F0D3F241D475800A01C97 /* JoinedStartedMatchModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C3F241D475600A01C97 /* JoinedStartedMatchModal.swift */; };
+		094F0D40241D475800A01C97 /* LeaugeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C40241D475600A01C97 /* LeaugeDetail.swift */; };
+		094F0D41241D475800A01C97 /* GameDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C41241D475600A01C97 /* GameDto.swift */; };
+		094F0D42241D475800A01C97 /* MatchScoreDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C42241D475600A01C97 /* MatchScoreDto.swift */; };
+		094F0D43241D475800A01C97 /* UserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C43241D475600A01C97 /* UserRequestModel.swift */; };
+		094F0D44241D475800A01C97 /* CustomIconDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C44241D475600A01C97 /* CustomIconDto.swift */; };
+		094F0D45241D475800A01C97 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C46241D475600A01C97 /* UserService.swift */; };
+		094F0D46241D475800A01C97 /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C47241D475600A01C97 /* MainService.swift */; };
+		094F0D47241D475800A01C97 /* ConfigurationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C48241D475600A01C97 /* ConfigurationFile.swift */; };
+		094F0D48241D475800A01C97 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C49241D475600A01C97 /* ProfileService.swift */; };
+		094F0D49241D475800A01C97 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C4A241D475600A01C97 /* HomeService.swift */; };
+		094F0D4A241D475800A01C97 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C4C241D475600A01C97 /* Messages.swift */; };
+		094F0D4C241D475800A01C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C4E241D475600A01C97 /* Assets.xcassets */; };
+		094F0D4D241D475800A01C97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C50241D475700A01C97 /* Extensions.swift */; };
+		094F0D4E241D475800A01C97 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C52241D475700A01C97 /* Common.swift */; };
+		094F0D4F241D475800A01C97 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C53241D475700A01C97 /* Utility.swift */; };
+		094F0D50241D475800A01C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C54241D475700A01C97 /* ViewController.swift */; };
+		094F0D52241D475800A01C97 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C58241D475700A01C97 /* More.storyboard */; };
+		094F0D53241D475800A01C97 /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C59241D475700A01C97 /* Initial.storyboard */; };
+		094F0D54241D475800A01C97 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C5A241D475700A01C97 /* Account.storyboard */; };
+		094F0D55241D475800A01C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C5B241D475700A01C97 /* AppDelegate.swift */; };
+		094F0D56241D475800A01C97 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F0C5D241D475700A01C97 /* constant.swift */; };
+		094F0D57241D475800A01C97 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C5F241D475700A01C97 /* Roboto-Medium.ttf */; };
+		094F0D58241D475800A01C97 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C60241D475700A01C97 /* Roboto-Light.ttf */; };
+		094F0D59241D475800A01C97 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C61241D475700A01C97 /* Roboto-Regular.ttf */; };
+		094F0D5A241D475800A01C97 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C62241D475700A01C97 /* Roboto-MediumItalic.ttf */; };
+		094F0D5B241D475800A01C97 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C63241D475700A01C97 /* Roboto-ThinItalic.ttf */; };
+		094F0D5C241D475800A01C97 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C64241D475700A01C97 /* Roboto-BoldItalic.ttf */; };
+		094F0D5D241D475800A01C97 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C65241D475700A01C97 /* Roboto-LightItalic.ttf */; };
+		094F0D5E241D475800A01C97 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C66241D475700A01C97 /* Roboto-Italic.ttf */; };
+		094F0D5F241D475800A01C97 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C67241D475700A01C97 /* Roboto-BlackItalic.ttf */; };
+		094F0D60241D475800A01C97 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C68241D475700A01C97 /* Roboto-Bold.ttf */; };
+		094F0D61241D475800A01C97 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C69241D475700A01C97 /* Roboto-Thin.ttf */; };
+		094F0D62241D475800A01C97 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C6A241D475700A01C97 /* Roboto-Black.ttf */; };
+		09E0BCAB241E227B00C3A6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F0C56241D475700A01C97 /* Main.storyboard */; };
+		189633E6245016AA0003AAAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189633E5245016AA0003AAAA /* GoogleService-Info.plist */; };
+		66731CDE354E4988F88E7AB7 /* Pods_Snozer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700C561F309C5BDF65A07735 /* Pods_Snozer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094F0B2B241D468000A01C97 /* Snozer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snozer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094F0B3C241D469000A01C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094F0B43241D46F500A01C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		094F0B45241D475400A01C97 /* Snozer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snozer-Bridging-Header.h"; sourceTree = "<group>"; };
+		094F0B48241D475500A01C97 /* HeaderImagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderImagesView.swift; sourceTree = "<group>"; };
+		094F0B4A241D475500A01C97 /* MatchTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchTCell.xib; sourceTree = "<group>"; };
+		094F0B4B241D475500A01C97 /* MatchCenterHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchCenterHeaderCell.xib; sourceTree = "<group>"; };
+		094F0B4C241D475500A01C97 /* OfferImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferImageCell.swift; sourceTree = "<group>"; };
+		094F0B4D241D475500A01C97 /* MatchCenterHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCenterHeaderCell.swift; sourceTree = "<group>"; };
+		094F0B4E241D475500A01C97 /* NoDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataCell.swift; sourceTree = "<group>"; };
+		094F0B4F241D475500A01C97 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		094F0B50241D475500A01C97 /* MatchTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTCell.swift; sourceTree = "<group>"; };
+		094F0B51241D475500A01C97 /* ImageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionCell.xib; sourceTree = "<group>"; };
+		094F0B52241D475500A01C97 /* OfferImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferImageCell.xib; sourceTree = "<group>"; };
+		094F0B53241D475500A01C97 /* NoDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoDataCell.xib; sourceTree = "<group>"; };
+		094F0B54241D475500A01C97 /* HeaderImagesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderImagesView.xib; sourceTree = "<group>"; };
+		094F0B55241D475500A01C97 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		094F0B58241D475500A01C97 /* ContestJoinedTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContestJoinedTCell.xib; sourceTree = "<group>"; };
+		094F0B59241D475500A01C97 /* PlayerStatsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStatsCell.swift; sourceTree = "<group>"; };
+		094F0B5A241D475500A01C97 /* PlayerScoreTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerScoreTCell.swift; sourceTree = "<group>"; };
+		094F0B5B241D475500A01C97 /* PlayerStatsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerStatsCell.xib; sourceTree = "<group>"; };
+		094F0B5C241D475500A01C97 /* PlayerScoreTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerScoreTCell.xib; sourceTree = "<group>"; };
+		094F0B5D241D475500A01C97 /* ContestJoinedTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestJoinedTCell.swift; sourceTree = "<group>"; };
+		094F0B5E241D475500A01C97 /* PlayerRealScoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRealScoreVC.swift; sourceTree = "<group>"; };
+		094F0B5F241D475500A01C97 /* PlayerStatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStatsVC.swift; sourceTree = "<group>"; };
+		094F0B60241D475500A01C97 /* MyContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContestVC.swift; sourceTree = "<group>"; };
+		094F0B62241D475500A01C97 /* WinningBreakUpOptionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinningBreakUpOptionVC.xib; sourceTree = "<group>"; };
+		094F0B63241D475500A01C97 /* ChooseWinningBreakVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseWinningBreakVC.xib; sourceTree = "<group>"; };
+		094F0B64241D475500A01C97 /* ChooseWinningBreakVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseWinningBreakVC.swift; sourceTree = "<group>"; };
+		094F0B65241D475500A01C97 /* WinningBreakUpOptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningBreakUpOptionVC.swift; sourceTree = "<group>"; };
+		094F0B67241D475500A01C97 /* PrivateWinningTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateWinningTCell.swift; sourceTree = "<group>"; };
+		094F0B68241D475500A01C97 /* PrivateCreateContestTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateCreateContestTCell.xib; sourceTree = "<group>"; };
+		094F0B69241D475500A01C97 /* PrivateCreateContestTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateCreateContestTCell.swift; sourceTree = "<group>"; };
+		094F0B6A241D475500A01C97 /* InviteContestTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteContestTCell.swift; sourceTree = "<group>"; };
+		094F0B6B241D475500A01C97 /* WinningBreakupOptionTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinningBreakupOptionTCell.xib; sourceTree = "<group>"; };
+		094F0B6C241D475500A01C97 /* WinningBreakupOptionTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningBreakupOptionTCell.swift; sourceTree = "<group>"; };
+		094F0B6D241D475500A01C97 /* PrivateWinningTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateWinningTCell.xib; sourceTree = "<group>"; };
+		094F0B6E241D475500A01C97 /* InviteContestTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteContestTCell.xib; sourceTree = "<group>"; };
+		094F0B6F241D475500A01C97 /* PrivateContestHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateContestHeader.swift; sourceTree = "<group>"; };
+		094F0B70241D475500A01C97 /* PrivateContestHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateContestHeader.xib; sourceTree = "<group>"; };
+		094F0B71241D475500A01C97 /* PrivateContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateContestVC.swift; sourceTree = "<group>"; };
+		094F0B73241D475500A01C97 /* PlayerRealInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRealInfoVC.swift; sourceTree = "<group>"; };
+		094F0B75241D475500A01C97 /* TeamTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTCell.swift; sourceTree = "<group>"; };
+		094F0B76241D475500A01C97 /* PlayerRealInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerRealInfoCell.xib; sourceTree = "<group>"; };
+		094F0B77241D475500A01C97 /* TeamSelectTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamSelectTCell.swift; sourceTree = "<group>"; };
+		094F0B78241D475500A01C97 /* TeamSelectTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamSelectTCell.xib; sourceTree = "<group>"; };
+		094F0B79241D475500A01C97 /* PlayerRealInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerRealInfoCell.swift; sourceTree = "<group>"; };
+		094F0B7A241D475500A01C97 /* TeamTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamTCell.xib; sourceTree = "<group>"; };
+		094F0B7B241D475500A01C97 /* ShareTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareTeamVC.swift; sourceTree = "<group>"; };
+		094F0B7C241D475500A01C97 /* MyTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTeamVC.swift; sourceTree = "<group>"; };
+		094F0B7E241D475500A01C97 /* CustomTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbarViewController.swift; sourceTree = "<group>"; };
+		094F0B7F241D475500A01C97 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		094F0B81241D475500A01C97 /* KYCPanBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCPanBankViewController.swift; sourceTree = "<group>"; };
+		094F0B82241D475500A01C97 /* InviteeFriendsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteeFriendsVC.swift; sourceTree = "<group>"; };
+		094F0B83241D475500A01C97 /* InviteeFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteeFriendCell.xib; sourceTree = "<group>"; };
+		094F0B84241D475500A01C97 /* InviteeFriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteeFriendCell.swift; sourceTree = "<group>"; };
+		094F0B85241D475500A01C97 /* KYCEmailMobileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCEmailMobileViewController.swift; sourceTree = "<group>"; };
+		094F0B86241D475500A01C97 /* InviteFriendsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsVC.swift; sourceTree = "<group>"; };
+		094F0B87241D475500A01C97 /* CustomerFeedsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerFeedsVC.swift; sourceTree = "<group>"; };
+		094F0B88241D475500A01C97 /* WithdrawalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawalViewController.swift; sourceTree = "<group>"; };
+		094F0B8A241D475500A01C97 /* KYCInputMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCInputMessageTableViewCell.swift; sourceTree = "<group>"; };
+		094F0B8B241D475500A01C97 /* KYCInputMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCInputMessageTableViewCell.xib; sourceTree = "<group>"; };
+		094F0B8D241D475500A01C97 /* SF11App.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = SF11App.ipa; sourceTree = "<group>"; };
+		094F0B8E241D475500A01C97 /* Packaging.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Packaging.log; sourceTree = "<group>"; };
+		094F0B8F241D475500A01C97 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
+		094F0B90241D475500A01C97 /* DistributionSummary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistributionSummary.plist; sourceTree = "<group>"; };
+		094F0B91241D475500A01C97 /* KYCInputTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCInputTableViewCell.xib; sourceTree = "<group>"; };
+		094F0B92241D475500A01C97 /* cellCashContestEarnings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellCashContestEarnings.xib; sourceTree = "<group>"; };
+		094F0B93241D475500A01C97 /* MoreTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreTCell.xib; sourceTree = "<group>"; };
+		094F0B94241D475500A01C97 /* UploadProofTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadProofTableViewCell.swift; sourceTree = "<group>"; };
+		094F0B95241D475500A01C97 /* UploadProofTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadProofTableViewCell.xib; sourceTree = "<group>"; };
+		094F0B96241D475500A01C97 /* cellCashContestEarnings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellCashContestEarnings.swift; sourceTree = "<group>"; };
+		094F0B97241D475500A01C97 /* KYCInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCInputTableViewCell.swift; sourceTree = "<group>"; };
+		094F0B98241D475500A01C97 /* MoreTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTCell.swift; sourceTree = "<group>"; };
+		094F0B99241D475500A01C97 /* WalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		094F0B9A241D475500A01C97 /* MyWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebVC.swift; sourceTree = "<group>"; };
+		094F0B9B241D475500A01C97 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		094F0B9C241D475500A01C97 /* HelpDeskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpDeskVC.swift; sourceTree = "<group>"; };
+		094F0B9D241D475500A01C97 /* ContestInviteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestInviteVC.swift; sourceTree = "<group>"; };
+		094F0B9E241D475500A01C97 /* CashContestEarningVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashContestEarningVC.swift; sourceTree = "<group>"; };
+		094F0B9F241D475500A01C97 /* KYCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCViewController.swift; sourceTree = "<group>"; };
+		094F0BA3241D475500A01C97 /* PlayerTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTypeCell.swift; sourceTree = "<group>"; };
+		094F0BA4241D475500A01C97 /* PlayerTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerTypeCell.xib; sourceTree = "<group>"; };
+		094F0BA5241D475500A01C97 /* PlayerLayoutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLayoutCollectionViewCell.swift; sourceTree = "<group>"; };
+		094F0BA6241D475500A01C97 /* PlayerLayoutCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerLayoutCollectionViewCell.xib; sourceTree = "<group>"; };
+		094F0BA7241D475500A01C97 /* TeamPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamPreviewController.swift; sourceTree = "<group>"; };
+		094F0BA8241D475500A01C97 /* SelectedCaptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedCaptionVC.swift; sourceTree = "<group>"; };
+		094F0BAA241D475500A01C97 /* CreateTeamPlayerStatsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamPlayerStatsCell.swift; sourceTree = "<group>"; };
+		094F0BAB241D475500A01C97 /* SelectedCaptionTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedCaptionTCell.xib; sourceTree = "<group>"; };
+		094F0BAC241D475500A01C97 /* CreateTeamTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamTCell.swift; sourceTree = "<group>"; };
+		094F0BAD241D475500A01C97 /* CreateTeamTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateTeamTCell.xib; sourceTree = "<group>"; };
+		094F0BAE241D475500A01C97 /* SelectedCaptionTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedCaptionTCell.swift; sourceTree = "<group>"; };
+		094F0BAF241D475500A01C97 /* CreateTeamPlayerStatsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateTeamPlayerStatsCell.xib; sourceTree = "<group>"; };
+		094F0BB0241D475500A01C97 /* CreateTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamVC.swift; sourceTree = "<group>"; };
+		094F0BB1241D475500A01C97 /* CreateFootballTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFootballTeamVC.swift; sourceTree = "<group>"; };
+		094F0BB2241D475500A01C97 /* CreateTeamPlayerStatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamPlayerStatsVC.swift; sourceTree = "<group>"; };
+		094F0BB3241D475500A01C97 /* CreateKabaddiTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateKabaddiTeamVC.swift; sourceTree = "<group>"; };
+		094F0BB5241D475500A01C97 /* OtpVerifyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpVerifyVC.swift; sourceTree = "<group>"; };
+		094F0BB6241D475500A01C97 /* LoginWithEmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithEmailVC.swift; sourceTree = "<group>"; };
+		094F0BB7241D475500A01C97 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		094F0BB8241D475500A01C97 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		094F0BB9241D475500A01C97 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		094F0BBA241D475500A01C97 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		094F0BBC241D475500A01C97 /* CustomerInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerInfoVC.swift; sourceTree = "<group>"; };
+		094F0BBD241D475500A01C97 /* RecentTransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTransactionsViewController.swift; sourceTree = "<group>"; };
+		094F0BBE241D475500A01C97 /* EditProfleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfleVC.swift; sourceTree = "<group>"; };
+		094F0BBF241D475500A01C97 /* AddCashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCashVC.swift; sourceTree = "<group>"; };
+		094F0BC0241D475500A01C97 /* LeaderBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardVC.swift; sourceTree = "<group>"; };
+		094F0BC1241D475500A01C97 /* AvtarSelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvtarSelectionVC.swift; sourceTree = "<group>"; };
+		094F0BC2241D475500A01C97 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		094F0BC3241D475500A01C97 /* TransactionHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryVC.swift; sourceTree = "<group>"; };
+		094F0BC4241D475500A01C97 /* SeriesCustomerMatchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesCustomerMatchVC.swift; sourceTree = "<group>"; };
+		094F0BC5241D475500A01C97 /* FollowersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersVC.swift; sourceTree = "<group>"; };
+		094F0BC7241D475500A01C97 /* PostTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTCell.xib; sourceTree = "<group>"; };
+		094F0BC8241D475500A01C97 /* LeaderBoardTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderBoardTCell.xib; sourceTree = "<group>"; };
+		094F0BC9241D475500A01C97 /* LeaderBoardTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardTCell.swift; sourceTree = "<group>"; };
+		094F0BCA241D475500A01C97 /* NotificationTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTCell.swift; sourceTree = "<group>"; };
+		094F0BCB241D475500A01C97 /* PostTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTCell.swift; sourceTree = "<group>"; };
+		094F0BCC241D475500A01C97 /* FollowTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowTCell.xib; sourceTree = "<group>"; };
+		094F0BCD241D475500A01C97 /* RecentTransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		094F0BCE241D475500A01C97 /* SeriesContestTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesContestTCell.swift; sourceTree = "<group>"; };
+		094F0BCF241D475500A01C97 /* RecentTransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		094F0BD0241D475500A01C97 /* RecentTransactionDate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentTransactionDate.xib; sourceTree = "<group>"; };
+		094F0BD1241D475500A01C97 /* FollowTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowTCell.swift; sourceTree = "<group>"; };
+		094F0BD2241D475500A01C97 /* NotificationTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationTCell.xib; sourceTree = "<group>"; };
+		094F0BD3241D475500A01C97 /* SeriesContestTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeriesContestTCell.xib; sourceTree = "<group>"; };
+		094F0BD4241D475500A01C97 /* PostListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListVC.swift; sourceTree = "<group>"; };
+		094F0BD5241D475500A01C97 /* ReactionListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactionListVC.swift; sourceTree = "<group>"; };
+		094F0BD6241D475500A01C97 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		094F0BD7241D475500A01C97 /* AccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		094F0BD8241D475500A01C97 /* AllUserReactionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUserReactionsVC.swift; sourceTree = "<group>"; };
+		094F0BDA241D475500A01C97 /* TeamListJoinContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamListJoinContestVC.swift; sourceTree = "<group>"; };
+		094F0BDC241D475500A01C97 /* ContestDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContestDetailCell.xib; sourceTree = "<group>"; };
+		094F0BDD241D475500A01C97 /* BeatExpertDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeatExpertDetailCell.xib; sourceTree = "<group>"; };
+		094F0BDE241D475500A01C97 /* LeaderboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderboardCell.xib; sourceTree = "<group>"; };
+		094F0BDF241D475500A01C97 /* ContestDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestDetailCell.swift; sourceTree = "<group>"; };
+		094F0BE0241D475500A01C97 /* LeaderboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardCell.swift; sourceTree = "<group>"; };
+		094F0BE1241D475500A01C97 /* LeaderboardHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardHeaderCell.swift; sourceTree = "<group>"; };
+		094F0BE2241D475500A01C97 /* BeatExpertDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatExpertDetailCell.swift; sourceTree = "<group>"; };
+		094F0BE3241D475500A01C97 /* ContestDetailCompletedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContestDetailCompletedCell.xib; sourceTree = "<group>"; };
+		094F0BE4241D475500A01C97 /* MatchScoreTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchScoreTCell.xib; sourceTree = "<group>"; };
+		094F0BE5241D475500A01C97 /* LeaderboardHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderboardHeaderCell.xib; sourceTree = "<group>"; };
+		094F0BE6241D475500A01C97 /* MatchScoreTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchScoreTCell.swift; sourceTree = "<group>"; };
+		094F0BE7241D475500A01C97 /* ContestDetailCompletedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestDetailCompletedCell.swift; sourceTree = "<group>"; };
+		094F0BE8241D475500A01C97 /* BeatExpertWinningBreakupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatExpertWinningBreakupVC.swift; sourceTree = "<group>"; };
+		094F0BE9241D475500A01C97 /* ContestDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestDetailVC.swift; sourceTree = "<group>"; };
+		094F0BEA241D475500A01C97 /* JoinedContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinedContestVC.swift; sourceTree = "<group>"; };
+		094F0BEB241D475500A01C97 /* ShareContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareContestVC.swift; sourceTree = "<group>"; };
+		094F0BEC241D475500A01C97 /* StartedContestsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartedContestsVC.swift; sourceTree = "<group>"; };
+		094F0BED241D475500A01C97 /* TeamSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamSelectionViewController.swift; sourceTree = "<group>"; };
+		094F0BEE241D475500A01C97 /* WinningBreakupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningBreakupsVC.swift; sourceTree = "<group>"; };
+		094F0BF0241D475500A01C97 /* BeatTheExpertTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeatTheExpertTCell.xib; sourceTree = "<group>"; };
+		094F0BF1241D475500A01C97 /* ContestViewMoreFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContestViewMoreFooter.xib; sourceTree = "<group>"; };
+		094F0BF2241D475500A01C97 /* ContestTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContestTCell.xib; sourceTree = "<group>"; };
+		094F0BF3241D475500A01C97 /* CategoryHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderCell.swift; sourceTree = "<group>"; };
+		094F0BF4241D475500A01C97 /* BeatTheExpertTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatTheExpertTCell.swift; sourceTree = "<group>"; };
+		094F0BF5241D475500A01C97 /* ContestTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestTCell.swift; sourceTree = "<group>"; };
+		094F0BF6241D475500A01C97 /* ContestViewMoreFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestViewMoreFooter.swift; sourceTree = "<group>"; };
+		094F0BF7241D475500A01C97 /* CategoryHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeaderCell.xib; sourceTree = "<group>"; };
+		094F0BF8241D475500A01C97 /* ContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestVC.swift; sourceTree = "<group>"; };
+		094F0BF9241D475500A01C97 /* JoinConfirmContestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinConfirmContestVC.swift; sourceTree = "<group>"; };
+		094F0BFA241D475500A01C97 /* BeatTheExpertJoinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatTheExpertJoinVC.swift; sourceTree = "<group>"; };
+		094F0BFB241D475500A01C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		094F0BFD241D475500A01C97 /* CustomDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDismissAnimationController.swift; sourceTree = "<group>"; };
+		094F0BFF241D475500A01C97 /* EMAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAlertController.swift; sourceTree = "<group>"; };
+		094F0C00241D475500A01C97 /* EMAlertTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAlertTextField.swift; sourceTree = "<group>"; };
+		094F0C01241D475500A01C97 /* EMAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAlertAction.swift; sourceTree = "<group>"; };
+		094F0C02241D475600A01C97 /* UIColor+EMAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+EMAlertController.swift"; sourceTree = "<group>"; };
+		094F0C03241D475600A01C97 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		094F0C05241D475600A01C97 /* NavHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavHeaderView.swift; sourceTree = "<group>"; };
+		094F0C06241D475600A01C97 /* NavHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavHeaderView.xib; sourceTree = "<group>"; };
+		094F0C07241D475600A01C97 /* CustomPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentAnimationController.swift; sourceTree = "<group>"; };
+		094F0C08241D475600A01C97 /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPlaceholderTextView.swift; sourceTree = "<group>"; };
+		094F0C0A241D475600A01C97 /* ActiveLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveLabel.swift; sourceTree = "<group>"; };
+		094F0C0B241D475600A01C97 /* RegexParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexParser.swift; sourceTree = "<group>"; };
+		094F0C0C241D475600A01C97 /* StringTrimExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTrimExtension.swift; sourceTree = "<group>"; };
+		094F0C0D241D475600A01C97 /* ActiveBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveBuilder.swift; sourceTree = "<group>"; };
+		094F0C0E241D475600A01C97 /* ActiveType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveType.swift; sourceTree = "<group>"; };
+		094F0C10241D475600A01C97 /* GradientProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientProgress.swift; sourceTree = "<group>"; };
+		094F0C12241D475600A01C97 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		094F0C13241D475600A01C97 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		094F0C14241D475600A01C97 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		094F0C17241D475600A01C97 /* TourPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourPoints.swift; sourceTree = "<group>"; };
+		094F0C18241D475600A01C97 /* MatchPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchPoint.swift; sourceTree = "<group>"; };
+		094F0C19241D475600A01C97 /* LeaguePlayerPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaguePlayerPoints.swift; sourceTree = "<group>"; };
+		094F0C1A241D475600A01C97 /* LivePlayerPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePlayerPoints.swift; sourceTree = "<group>"; };
+		094F0C1B241D475600A01C97 /* PostShareDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostShareDto.swift; sourceTree = "<group>"; };
+		094F0C1C241D475600A01C97 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		094F0C1D241D475600A01C97 /* PrivateWinningOptionDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateWinningOptionDto.swift; sourceTree = "<group>"; };
+		094F0C1E241D475600A01C97 /* PlayerStatsDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStatsDto.swift; sourceTree = "<group>"; };
+		094F0C1F241D475600A01C97 /* CommonDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDto.swift; sourceTree = "<group>"; };
+		094F0C20241D475600A01C97 /* ResponseDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseDto.swift; sourceTree = "<group>"; };
+		094F0C21241D475600A01C97 /* ReferralDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferralDto.swift; sourceTree = "<group>"; };
+		094F0C23241D475600A01C97 /* LeaderboardDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardDto.swift; sourceTree = "<group>"; };
+		094F0C25241D475600A01C97 /* HomeMatchList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMatchList.swift; sourceTree = "<group>"; };
+		094F0C26241D475600A01C97 /* HeaderModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderModal.swift; sourceTree = "<group>"; };
+		094F0C27241D475600A01C97 /* SplashVersion2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVersion2.swift; sourceTree = "<group>"; };
+		094F0C28241D475600A01C97 /* NotificationDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDto.swift; sourceTree = "<group>"; };
+		094F0C2A241D475600A01C97 /* ProfileUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUserInfo.swift; sourceTree = "<group>"; };
+		094F0C2B241D475600A01C97 /* CustomerInfoDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerInfoDto.swift; sourceTree = "<group>"; };
+		094F0C2D241D475600A01C97 /* AmountDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountDetail.swift; sourceTree = "<group>"; };
+		094F0C2E241D475600A01C97 /* Refer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refer.swift; sourceTree = "<group>"; };
+		094F0C2F241D475600A01C97 /* TxnHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxnHistory.swift; sourceTree = "<group>"; };
+		094F0C30241D475600A01C97 /* BankAccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountInfo.swift; sourceTree = "<group>"; };
+		094F0C31241D475600A01C97 /* AccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		094F0C33241D475600A01C97 /* PlayerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
+		094F0C34241D475600A01C97 /* Jointeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jointeam.swift; sourceTree = "<group>"; };
+		094F0C35241D475600A01C97 /* PlayerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		094F0C36241D475600A01C97 /* SavedTeamModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedTeamModal.swift; sourceTree = "<group>"; };
+		094F0C37241D475600A01C97 /* teamPrevieModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teamPrevieModal.swift; sourceTree = "<group>"; };
+		094F0C38241D475600A01C97 /* AddCashCallbackDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCashCallbackDto.swift; sourceTree = "<group>"; };
+		094F0C3A241D475600A01C97 /* PaidLeague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaidLeague.swift; sourceTree = "<group>"; };
+		094F0C3B241D475600A01C97 /* ContestLeaderboardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestLeaderboardData.swift; sourceTree = "<group>"; };
+		094F0C3C241D475600A01C97 /* ContestCompleteDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestCompleteDetail.swift; sourceTree = "<group>"; };
+		094F0C3D241D475600A01C97 /* LeagueLiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueLiveData.swift; sourceTree = "<group>"; };
+		094F0C3E241D475600A01C97 /* ContestCateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestCateModel.swift; sourceTree = "<group>"; };
+		094F0C3F241D475600A01C97 /* JoinedStartedMatchModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinedStartedMatchModal.swift; sourceTree = "<group>"; };
+		094F0C40241D475600A01C97 /* LeaugeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaugeDetail.swift; sourceTree = "<group>"; };
+		094F0C41241D475600A01C97 /* GameDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDto.swift; sourceTree = "<group>"; };
+		094F0C42241D475600A01C97 /* MatchScoreDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchScoreDto.swift; sourceTree = "<group>"; };
+		094F0C43241D475600A01C97 /* UserRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRequestModel.swift; sourceTree = "<group>"; };
+		094F0C44241D475600A01C97 /* CustomIconDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIconDto.swift; sourceTree = "<group>"; };
+		094F0C46241D475600A01C97 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		094F0C47241D475600A01C97 /* MainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		094F0C48241D475600A01C97 /* ConfigurationFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationFile.swift; sourceTree = "<group>"; };
+		094F0C49241D475600A01C97 /* ProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		094F0C4A241D475600A01C97 /* HomeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		094F0C4C241D475600A01C97 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		094F0C4E241D475600A01C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094F0C50241D475700A01C97 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		094F0C52241D475700A01C97 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		094F0C53241D475700A01C97 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		094F0C54241D475700A01C97 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		094F0C57241D475700A01C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094F0C58241D475700A01C97 /* More.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		094F0C59241D475700A01C97 /* Initial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
+		094F0C5A241D475700A01C97 /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		094F0C5B241D475700A01C97 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		094F0C5D241D475700A01C97 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		094F0C5F241D475700A01C97 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		094F0C60241D475700A01C97 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		094F0C61241D475700A01C97 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		094F0C62241D475700A01C97 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		094F0C63241D475700A01C97 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		094F0C64241D475700A01C97 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		094F0C65241D475700A01C97 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		094F0C66241D475700A01C97 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		094F0C67241D475700A01C97 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		094F0C68241D475700A01C97 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		094F0C69241D475700A01C97 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		094F0C6A241D475700A01C97 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		188E39E4244ECB8500232FB2 /* Snozer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snozer.entitlements; sourceTree = "<group>"; };
+		189633E5245016AA0003AAAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C17467F3BE3C0B0CD4E324F /* Pods-Snozer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snozer.release.xcconfig"; path = "Target Support Files/Pods-Snozer/Pods-Snozer.release.xcconfig"; sourceTree = "<group>"; };
+		700C561F309C5BDF65A07735 /* Pods_Snozer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snozer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844693F56D15B7FDA9EDFA61 /* Pods-Snozer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snozer.debug.xcconfig"; path = "Target Support Files/Pods-Snozer/Pods-Snozer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094F0B28241D468000A01C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66731CDE354E4988F88E7AB7 /* Pods_Snozer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094F0B22241D468000A01C97 = {
+			isa = PBXGroup;
+			children = (
+				094F0B2D241D468000A01C97 /* Snozer */,
+				094F0B2C241D468000A01C97 /* Products */,
+				BC6D7C7D0756C977FC2896A2 /* Pods */,
+				D7C709D208D0954743DC2B31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		094F0B2C241D468000A01C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B2B241D468000A01C97 /* Snozer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094F0B2D241D468000A01C97 /* Snozer */ = {
+			isa = PBXGroup;
+			children = (
+				188E39E4244ECB8500232FB2 /* Snozer.entitlements */,
+				094F0C5B241D475700A01C97 /* AppDelegate.swift */,
+				094F0C54241D475700A01C97 /* ViewController.swift */,
+				094F0BFB241D475500A01C97 /* SceneDelegate.swift */,
+				189633E5245016AA0003AAAA /* GoogleService-Info.plist */,
+				094F0B3C241D469000A01C97 /* Info.plist */,
+				094F0B45241D475400A01C97 /* Snozer-Bridging-Header.h */,
+				094F0C4E241D475600A01C97 /* Assets.xcassets */,
+				094F0C51241D475700A01C97 /* Common */,
+				094F0C5C241D475700A01C97 /* Constant */,
+				094F0B46241D475500A01C97 /* Controllers */,
+				094F0C4F241D475700A01C97 /* Extension */,
+				094F0C5E241D475700A01C97 /* Fonts */,
+				094F0BFC241D475500A01C97 /* Helper */,
+				094F0C4B241D475600A01C97 /* Message */,
+				094F0C15241D475600A01C97 /* Models */,
+				094F0C45241D475600A01C97 /* Services */,
+				094F0C55241D475700A01C97 /* Storyboard */,
+				094F0B42241D46F500A01C97 /* LaunchScreen.storyboard */,
+			);
+			path = Snozer;
+			sourceTree = "<group>";
+		};
+		094F0B46241D475500A01C97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B47241D475500A01C97 /* Home */,
+				094F0B56241D475500A01C97 /* MyContest */,
+				094F0B61241D475500A01C97 /* PrivateContest */,
+				094F0B72241D475500A01C97 /* MyTeam */,
+				094F0B7D241D475500A01C97 /* CustomNavigation */,
+				094F0B80241D475500A01C97 /* More */,
+				094F0BA0241D475500A01C97 /* CreateTeam */,
+				094F0BB4241D475500A01C97 /* InitialVC */,
+				094F0BBB241D475500A01C97 /* Account */,
+				094F0BD9241D475500A01C97 /* Contest */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		094F0B47241D475500A01C97 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B48241D475500A01C97 /* HeaderImagesView.swift */,
+				094F0B49241D475500A01C97 /* Cell */,
+				094F0B54241D475500A01C97 /* HeaderImagesView.xib */,
+				094F0B55241D475500A01C97 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		094F0B49241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B4A241D475500A01C97 /* MatchTCell.xib */,
+				094F0B4B241D475500A01C97 /* MatchCenterHeaderCell.xib */,
+				094F0B4C241D475500A01C97 /* OfferImageCell.swift */,
+				094F0B4D241D475500A01C97 /* MatchCenterHeaderCell.swift */,
+				094F0B4E241D475500A01C97 /* NoDataCell.swift */,
+				094F0B4F241D475500A01C97 /* ImageCollectionCell.swift */,
+				094F0B50241D475500A01C97 /* MatchTCell.swift */,
+				094F0B51241D475500A01C97 /* ImageCollectionCell.xib */,
+				094F0B52241D475500A01C97 /* OfferImageCell.xib */,
+				094F0B53241D475500A01C97 /* NoDataCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0B56241D475500A01C97 /* MyContest */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B57241D475500A01C97 /* Cell */,
+				094F0B5E241D475500A01C97 /* PlayerRealScoreVC.swift */,
+				094F0B5F241D475500A01C97 /* PlayerStatsVC.swift */,
+				094F0B60241D475500A01C97 /* MyContestVC.swift */,
+			);
+			path = MyContest;
+			sourceTree = "<group>";
+		};
+		094F0B57241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B58241D475500A01C97 /* ContestJoinedTCell.xib */,
+				094F0B59241D475500A01C97 /* PlayerStatsCell.swift */,
+				094F0B5A241D475500A01C97 /* PlayerScoreTCell.swift */,
+				094F0B5B241D475500A01C97 /* PlayerStatsCell.xib */,
+				094F0B5C241D475500A01C97 /* PlayerScoreTCell.xib */,
+				094F0B5D241D475500A01C97 /* ContestJoinedTCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0B61241D475500A01C97 /* PrivateContest */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B62241D475500A01C97 /* WinningBreakUpOptionVC.xib */,
+				094F0B63241D475500A01C97 /* ChooseWinningBreakVC.xib */,
+				094F0B64241D475500A01C97 /* ChooseWinningBreakVC.swift */,
+				094F0B65241D475500A01C97 /* WinningBreakUpOptionVC.swift */,
+				094F0B66241D475500A01C97 /* Cell */,
+				094F0B71241D475500A01C97 /* PrivateContestVC.swift */,
+			);
+			path = PrivateContest;
+			sourceTree = "<group>";
+		};
+		094F0B66241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B67241D475500A01C97 /* PrivateWinningTCell.swift */,
+				094F0B68241D475500A01C97 /* PrivateCreateContestTCell.xib */,
+				094F0B69241D475500A01C97 /* PrivateCreateContestTCell.swift */,
+				094F0B6A241D475500A01C97 /* InviteContestTCell.swift */,
+				094F0B6B241D475500A01C97 /* WinningBreakupOptionTCell.xib */,
+				094F0B6C241D475500A01C97 /* WinningBreakupOptionTCell.swift */,
+				094F0B6D241D475500A01C97 /* PrivateWinningTCell.xib */,
+				094F0B6E241D475500A01C97 /* InviteContestTCell.xib */,
+				094F0B6F241D475500A01C97 /* PrivateContestHeader.swift */,
+				094F0B70241D475500A01C97 /* PrivateContestHeader.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0B72241D475500A01C97 /* MyTeam */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B73241D475500A01C97 /* PlayerRealInfoVC.swift */,
+				094F0B74241D475500A01C97 /* Cell */,
+				094F0B7B241D475500A01C97 /* ShareTeamVC.swift */,
+				094F0B7C241D475500A01C97 /* MyTeamVC.swift */,
+			);
+			path = MyTeam;
+			sourceTree = "<group>";
+		};
+		094F0B74241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B75241D475500A01C97 /* TeamTCell.swift */,
+				094F0B76241D475500A01C97 /* PlayerRealInfoCell.xib */,
+				094F0B77241D475500A01C97 /* TeamSelectTCell.swift */,
+				094F0B78241D475500A01C97 /* TeamSelectTCell.xib */,
+				094F0B79241D475500A01C97 /* PlayerRealInfoCell.swift */,
+				094F0B7A241D475500A01C97 /* TeamTCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0B7D241D475500A01C97 /* CustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B7E241D475500A01C97 /* CustomTabbarViewController.swift */,
+				094F0B7F241D475500A01C97 /* MyNavigationController.swift */,
+			);
+			path = CustomNavigation;
+			sourceTree = "<group>";
+		};
+		094F0B80241D475500A01C97 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B81241D475500A01C97 /* KYCPanBankViewController.swift */,
+				094F0B82241D475500A01C97 /* InviteeFriendsVC.swift */,
+				094F0B83241D475500A01C97 /* InviteeFriendCell.xib */,
+				094F0B84241D475500A01C97 /* InviteeFriendCell.swift */,
+				094F0B85241D475500A01C97 /* KYCEmailMobileViewController.swift */,
+				094F0B86241D475500A01C97 /* InviteFriendsVC.swift */,
+				094F0B87241D475500A01C97 /* CustomerFeedsVC.swift */,
+				094F0B88241D475500A01C97 /* WithdrawalViewController.swift */,
+				094F0B89241D475500A01C97 /* cell */,
+				094F0B99241D475500A01C97 /* WalletVC.swift */,
+				094F0B9A241D475500A01C97 /* MyWebVC.swift */,
+				094F0B9B241D475500A01C97 /* MoreVC.swift */,
+				094F0B9C241D475500A01C97 /* HelpDeskVC.swift */,
+				094F0B9D241D475500A01C97 /* ContestInviteVC.swift */,
+				094F0B9E241D475500A01C97 /* CashContestEarningVC.swift */,
+				094F0B9F241D475500A01C97 /* KYCViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		094F0B89241D475500A01C97 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B8A241D475500A01C97 /* KYCInputMessageTableViewCell.swift */,
+				094F0B8B241D475500A01C97 /* KYCInputMessageTableViewCell.xib */,
+				094F0B8C241D475500A01C97 /* SF11App 2020-03-07 11-57-32 */,
+				094F0B91241D475500A01C97 /* KYCInputTableViewCell.xib */,
+				094F0B92241D475500A01C97 /* cellCashContestEarnings.xib */,
+				094F0B93241D475500A01C97 /* MoreTCell.xib */,
+				094F0B94241D475500A01C97 /* UploadProofTableViewCell.swift */,
+				094F0B95241D475500A01C97 /* UploadProofTableViewCell.xib */,
+				094F0B96241D475500A01C97 /* cellCashContestEarnings.swift */,
+				094F0B97241D475500A01C97 /* KYCInputTableViewCell.swift */,
+				094F0B98241D475500A01C97 /* MoreTCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		094F0B8C241D475500A01C97 /* SF11App 2020-03-07 11-57-32 */ = {
+			isa = PBXGroup;
+			children = (
+				094F0B8D241D475500A01C97 /* SF11App.ipa */,
+				094F0B8E241D475500A01C97 /* Packaging.log */,
+				094F0B8F241D475500A01C97 /* ExportOptions.plist */,
+				094F0B90241D475500A01C97 /* DistributionSummary.plist */,
+			);
+			path = "SF11App 2020-03-07 11-57-32";
+			sourceTree = "<group>";
+		};
+		094F0BA0241D475500A01C97 /* CreateTeam */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BA1241D475500A01C97 /* TeamPreviewCell */,
+				094F0BA7241D475500A01C97 /* TeamPreviewController.swift */,
+				094F0BA8241D475500A01C97 /* SelectedCaptionVC.swift */,
+				094F0BA9241D475500A01C97 /* Cell */,
+				094F0BB0241D475500A01C97 /* CreateTeamVC.swift */,
+				094F0BB1241D475500A01C97 /* CreateFootballTeamVC.swift */,
+				094F0BB2241D475500A01C97 /* CreateTeamPlayerStatsVC.swift */,
+				094F0BB3241D475500A01C97 /* CreateKabaddiTeamVC.swift */,
+			);
+			path = CreateTeam;
+			sourceTree = "<group>";
+		};
+		094F0BA1241D475500A01C97 /* TeamPreviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BA2241D475500A01C97 /* TeamTableViewCell */,
+				094F0BA5241D475500A01C97 /* PlayerLayoutCollectionViewCell.swift */,
+				094F0BA6241D475500A01C97 /* PlayerLayoutCollectionViewCell.xib */,
+			);
+			path = TeamPreviewCell;
+			sourceTree = "<group>";
+		};
+		094F0BA2241D475500A01C97 /* TeamTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BA3241D475500A01C97 /* PlayerTypeCell.swift */,
+				094F0BA4241D475500A01C97 /* PlayerTypeCell.xib */,
+			);
+			path = TeamTableViewCell;
+			sourceTree = "<group>";
+		};
+		094F0BA9241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BAA241D475500A01C97 /* CreateTeamPlayerStatsCell.swift */,
+				094F0BAB241D475500A01C97 /* SelectedCaptionTCell.xib */,
+				094F0BAC241D475500A01C97 /* CreateTeamTCell.swift */,
+				094F0BAD241D475500A01C97 /* CreateTeamTCell.xib */,
+				094F0BAE241D475500A01C97 /* SelectedCaptionTCell.swift */,
+				094F0BAF241D475500A01C97 /* CreateTeamPlayerStatsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0BB4241D475500A01C97 /* InitialVC */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BB5241D475500A01C97 /* OtpVerifyVC.swift */,
+				094F0BB6241D475500A01C97 /* LoginWithEmailVC.swift */,
+				094F0BB7241D475500A01C97 /* LandingVC.swift */,
+				094F0BB8241D475500A01C97 /* ResetPasswordVC.swift */,
+				094F0BB9241D475500A01C97 /* SignUpVC.swift */,
+				094F0BBA241D475500A01C97 /* SplashController.swift */,
+			);
+			path = InitialVC;
+			sourceTree = "<group>";
+		};
+		094F0BBB241D475500A01C97 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BBC241D475500A01C97 /* CustomerInfoVC.swift */,
+				094F0BBD241D475500A01C97 /* RecentTransactionsViewController.swift */,
+				094F0BBE241D475500A01C97 /* EditProfleVC.swift */,
+				094F0BBF241D475500A01C97 /* AddCashVC.swift */,
+				094F0BC0241D475500A01C97 /* LeaderBoardVC.swift */,
+				094F0BC1241D475500A01C97 /* AvtarSelectionVC.swift */,
+				094F0BC2241D475500A01C97 /* ChangePasswordVC.swift */,
+				094F0BC3241D475500A01C97 /* TransactionHistoryVC.swift */,
+				094F0BC4241D475500A01C97 /* SeriesCustomerMatchVC.swift */,
+				094F0BC5241D475500A01C97 /* FollowersVC.swift */,
+				094F0BC6241D475500A01C97 /* Cell */,
+				094F0BD4241D475500A01C97 /* PostListVC.swift */,
+				094F0BD5241D475500A01C97 /* ReactionListVC.swift */,
+				094F0BD6241D475500A01C97 /* NotificationVC.swift */,
+				094F0BD7241D475500A01C97 /* AccountVC.swift */,
+				094F0BD8241D475500A01C97 /* AllUserReactionsVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		094F0BC6241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BC7241D475500A01C97 /* PostTCell.xib */,
+				094F0BC8241D475500A01C97 /* LeaderBoardTCell.xib */,
+				094F0BC9241D475500A01C97 /* LeaderBoardTCell.swift */,
+				094F0BCA241D475500A01C97 /* NotificationTCell.swift */,
+				094F0BCB241D475500A01C97 /* PostTCell.swift */,
+				094F0BCC241D475500A01C97 /* FollowTCell.xib */,
+				094F0BCD241D475500A01C97 /* RecentTransactionTableViewCell.xib */,
+				094F0BCE241D475500A01C97 /* SeriesContestTCell.swift */,
+				094F0BCF241D475500A01C97 /* RecentTransactionTableViewCell.swift */,
+				094F0BD0241D475500A01C97 /* RecentTransactionDate.xib */,
+				094F0BD1241D475500A01C97 /* FollowTCell.swift */,
+				094F0BD2241D475500A01C97 /* NotificationTCell.xib */,
+				094F0BD3241D475500A01C97 /* SeriesContestTCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0BD9241D475500A01C97 /* Contest */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BDA241D475500A01C97 /* TeamListJoinContestVC.swift */,
+				094F0BDB241D475500A01C97 /* Contest Detail Table Cell */,
+				094F0BE8241D475500A01C97 /* BeatExpertWinningBreakupVC.swift */,
+				094F0BE9241D475500A01C97 /* ContestDetailVC.swift */,
+				094F0BEA241D475500A01C97 /* JoinedContestVC.swift */,
+				094F0BEB241D475500A01C97 /* ShareContestVC.swift */,
+				094F0BEC241D475500A01C97 /* StartedContestsVC.swift */,
+				094F0BED241D475500A01C97 /* TeamSelectionViewController.swift */,
+				094F0BEE241D475500A01C97 /* WinningBreakupsVC.swift */,
+				094F0BEF241D475500A01C97 /* Cell */,
+				094F0BF8241D475500A01C97 /* ContestVC.swift */,
+				094F0BF9241D475500A01C97 /* JoinConfirmContestVC.swift */,
+				094F0BFA241D475500A01C97 /* BeatTheExpertJoinVC.swift */,
+			);
+			path = Contest;
+			sourceTree = "<group>";
+		};
+		094F0BDB241D475500A01C97 /* Contest Detail Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BDC241D475500A01C97 /* ContestDetailCell.xib */,
+				094F0BDD241D475500A01C97 /* BeatExpertDetailCell.xib */,
+				094F0BDE241D475500A01C97 /* LeaderboardCell.xib */,
+				094F0BDF241D475500A01C97 /* ContestDetailCell.swift */,
+				094F0BE0241D475500A01C97 /* LeaderboardCell.swift */,
+				094F0BE1241D475500A01C97 /* LeaderboardHeaderCell.swift */,
+				094F0BE2241D475500A01C97 /* BeatExpertDetailCell.swift */,
+				094F0BE3241D475500A01C97 /* ContestDetailCompletedCell.xib */,
+				094F0BE4241D475500A01C97 /* MatchScoreTCell.xib */,
+				094F0BE5241D475500A01C97 /* LeaderboardHeaderCell.xib */,
+				094F0BE6241D475500A01C97 /* MatchScoreTCell.swift */,
+				094F0BE7241D475500A01C97 /* ContestDetailCompletedCell.swift */,
+			);
+			path = "Contest Detail Table Cell";
+			sourceTree = "<group>";
+		};
+		094F0BEF241D475500A01C97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BF0241D475500A01C97 /* BeatTheExpertTCell.xib */,
+				094F0BF1241D475500A01C97 /* ContestViewMoreFooter.xib */,
+				094F0BF2241D475500A01C97 /* ContestTCell.xib */,
+				094F0BF3241D475500A01C97 /* CategoryHeaderCell.swift */,
+				094F0BF4241D475500A01C97 /* BeatTheExpertTCell.swift */,
+				094F0BF5241D475500A01C97 /* ContestTCell.swift */,
+				094F0BF6241D475500A01C97 /* ContestViewMoreFooter.swift */,
+				094F0BF7241D475500A01C97 /* CategoryHeaderCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		094F0BFC241D475500A01C97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BFD241D475500A01C97 /* CustomDismissAnimationController.swift */,
+				094F0BFE241D475500A01C97 /* Alert */,
+				094F0C03241D475600A01C97 /* AlignedCollectionViewFlowLayout.swift */,
+				094F0C04241D475600A01C97 /* NavHeaderView */,
+				094F0C07241D475600A01C97 /* CustomPresentAnimationController.swift */,
+				094F0C08241D475600A01C97 /* KMPlaceholderTextView.swift */,
+				094F0C09241D475600A01C97 /* ActiveLabel */,
+				094F0C0F241D475600A01C97 /* GradientProgress */,
+				094F0C11241D475600A01C97 /* SkyTextField */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		094F0BFE241D475500A01C97 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				094F0BFF241D475500A01C97 /* EMAlertController.swift */,
+				094F0C00241D475500A01C97 /* EMAlertTextField.swift */,
+				094F0C01241D475500A01C97 /* EMAlertAction.swift */,
+				094F0C02241D475600A01C97 /* UIColor+EMAlertController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		094F0C04241D475600A01C97 /* NavHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C05241D475600A01C97 /* NavHeaderView.swift */,
+				094F0C06241D475600A01C97 /* NavHeaderView.xib */,
+			);
+			path = NavHeaderView;
+			sourceTree = "<group>";
+		};
+		094F0C09241D475600A01C97 /* ActiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C0A241D475600A01C97 /* ActiveLabel.swift */,
+				094F0C0B241D475600A01C97 /* RegexParser.swift */,
+				094F0C0C241D475600A01C97 /* StringTrimExtension.swift */,
+				094F0C0D241D475600A01C97 /* ActiveBuilder.swift */,
+				094F0C0E241D475600A01C97 /* ActiveType.swift */,
+			);
+			path = ActiveLabel;
+			sourceTree = "<group>";
+		};
+		094F0C0F241D475600A01C97 /* GradientProgress */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C10241D475600A01C97 /* GradientProgress.swift */,
+			);
+			path = GradientProgress;
+			sourceTree = "<group>";
+		};
+		094F0C11241D475600A01C97 /* SkyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C12241D475600A01C97 /* SkyFloatingLabelTextField.swift */,
+				094F0C13241D475600A01C97 /* UITextField+fixCaretPosition.swift */,
+				094F0C14241D475600A01C97 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+			);
+			path = SkyTextField;
+			sourceTree = "<group>";
+		};
+		094F0C15241D475600A01C97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C16241D475600A01C97 /* PlayerInfo */,
+				094F0C1B241D475600A01C97 /* PostShareDto.swift */,
+				094F0C1C241D475600A01C97 /* LoginModel.swift */,
+				094F0C1D241D475600A01C97 /* PrivateWinningOptionDto.swift */,
+				094F0C1E241D475600A01C97 /* PlayerStatsDto.swift */,
+				094F0C1F241D475600A01C97 /* CommonDto.swift */,
+				094F0C20241D475600A01C97 /* ResponseDto.swift */,
+				094F0C21241D475600A01C97 /* ReferralDto.swift */,
+				094F0C22241D475600A01C97 /* Leaderboard */,
+				094F0C24241D475600A01C97 /* HomeModel */,
+				094F0C27241D475600A01C97 /* SplashVersion2.swift */,
+				094F0C28241D475600A01C97 /* NotificationDto.swift */,
+				094F0C29241D475600A01C97 /* Profile */,
+				094F0C2C241D475600A01C97 /* SideMenu */,
+				094F0C32241D475600A01C97 /* CreateTeam */,
+				094F0C38241D475600A01C97 /* AddCashCallbackDto.swift */,
+				094F0C39241D475600A01C97 /* Contest */,
+				094F0C41241D475600A01C97 /* GameDto.swift */,
+				094F0C42241D475600A01C97 /* MatchScoreDto.swift */,
+				094F0C43241D475600A01C97 /* UserRequestModel.swift */,
+				094F0C44241D475600A01C97 /* CustomIconDto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		094F0C16241D475600A01C97 /* PlayerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C17241D475600A01C97 /* TourPoints.swift */,
+				094F0C18241D475600A01C97 /* MatchPoint.swift */,
+				094F0C19241D475600A01C97 /* LeaguePlayerPoints.swift */,
+				094F0C1A241D475600A01C97 /* LivePlayerPoints.swift */,
+			);
+			path = PlayerInfo;
+			sourceTree = "<group>";
+		};
+		094F0C22241D475600A01C97 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C23241D475600A01C97 /* LeaderboardDto.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		094F0C24241D475600A01C97 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C25241D475600A01C97 /* HomeMatchList.swift */,
+				094F0C26241D475600A01C97 /* HeaderModal.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		094F0C29241D475600A01C97 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C2A241D475600A01C97 /* ProfileUserInfo.swift */,
+				094F0C2B241D475600A01C97 /* CustomerInfoDto.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		094F0C2C241D475600A01C97 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C2D241D475600A01C97 /* AmountDetail.swift */,
+				094F0C2E241D475600A01C97 /* Refer.swift */,
+				094F0C2F241D475600A01C97 /* TxnHistory.swift */,
+				094F0C30241D475600A01C97 /* BankAccountInfo.swift */,
+				094F0C31241D475600A01C97 /* AccountInfo.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		094F0C32241D475600A01C97 /* CreateTeam */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C33241D475600A01C97 /* PlayerList.swift */,
+				094F0C34241D475600A01C97 /* Jointeam.swift */,
+				094F0C35241D475600A01C97 /* PlayerData.swift */,
+				094F0C36241D475600A01C97 /* SavedTeamModal.swift */,
+				094F0C37241D475600A01C97 /* teamPrevieModal.swift */,
+			);
+			path = CreateTeam;
+			sourceTree = "<group>";
+		};
+		094F0C39241D475600A01C97 /* Contest */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C3A241D475600A01C97 /* PaidLeague.swift */,
+				094F0C3B241D475600A01C97 /* ContestLeaderboardData.swift */,
+				094F0C3C241D475600A01C97 /* ContestCompleteDetail.swift */,
+				094F0C3D241D475600A01C97 /* LeagueLiveData.swift */,
+				094F0C3E241D475600A01C97 /* ContestCateModel.swift */,
+				094F0C3F241D475600A01C97 /* JoinedStartedMatchModal.swift */,
+				094F0C40241D475600A01C97 /* LeaugeDetail.swift */,
+			);
+			path = Contest;
+			sourceTree = "<group>";
+		};
+		094F0C45241D475600A01C97 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C46241D475600A01C97 /* UserService.swift */,
+				094F0C47241D475600A01C97 /* MainService.swift */,
+				094F0C48241D475600A01C97 /* ConfigurationFile.swift */,
+				094F0C49241D475600A01C97 /* ProfileService.swift */,
+				094F0C4A241D475600A01C97 /* HomeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		094F0C4B241D475600A01C97 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C4C241D475600A01C97 /* Messages.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		094F0C4F241D475700A01C97 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C50241D475700A01C97 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		094F0C51241D475700A01C97 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C52241D475700A01C97 /* Common.swift */,
+				094F0C53241D475700A01C97 /* Utility.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		094F0C55241D475700A01C97 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C56241D475700A01C97 /* Main.storyboard */,
+				094F0C58241D475700A01C97 /* More.storyboard */,
+				094F0C59241D475700A01C97 /* Initial.storyboard */,
+				094F0C5A241D475700A01C97 /* Account.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		094F0C5C241D475700A01C97 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C5D241D475700A01C97 /* constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		094F0C5E241D475700A01C97 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				094F0C5F241D475700A01C97 /* Roboto-Medium.ttf */,
+				094F0C60241D475700A01C97 /* Roboto-Light.ttf */,
+				094F0C61241D475700A01C97 /* Roboto-Regular.ttf */,
+				094F0C62241D475700A01C97 /* Roboto-MediumItalic.ttf */,
+				094F0C63241D475700A01C97 /* Roboto-ThinItalic.ttf */,
+				094F0C64241D475700A01C97 /* Roboto-BoldItalic.ttf */,
+				094F0C65241D475700A01C97 /* Roboto-LightItalic.ttf */,
+				094F0C66241D475700A01C97 /* Roboto-Italic.ttf */,
+				094F0C67241D475700A01C97 /* Roboto-BlackItalic.ttf */,
+				094F0C68241D475700A01C97 /* Roboto-Bold.ttf */,
+				094F0C69241D475700A01C97 /* Roboto-Thin.ttf */,
+				094F0C6A241D475700A01C97 /* Roboto-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BC6D7C7D0756C977FC2896A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844693F56D15B7FDA9EDFA61 /* Pods-Snozer.debug.xcconfig */,
+				3C17467F3BE3C0B0CD4E324F /* Pods-Snozer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7C709D208D0954743DC2B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				700C561F309C5BDF65A07735 /* Pods_Snozer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094F0B2A241D468000A01C97 /* Snozer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094F0B3F241D469000A01C97 /* Build configuration list for PBXNativeTarget "Snozer" */;
+			buildPhases = (
+				3D5D3A0D60441DB96BA42203 /* [CP] Check Pods Manifest.lock */,
+				094F0B27241D468000A01C97 /* Sources */,
+				094F0B28241D468000A01C97 /* Frameworks */,
+				094F0B29241D468000A01C97 /* Resources */,
+				D83DC0C5962E2EFE606560FF /* [CP] Embed Pods Frameworks */,
+				8E0F27BEDA692F392758E8B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snozer;
+			productName = Snozer;
+			productReference = 094F0B2B241D468000A01C97 /* Snozer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094F0B23241D468000A01C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lal Chand Nagar";
+				TargetAttributes = {
+					094F0B2A241D468000A01C97 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 094F0B26241D468000A01C97 /* Build configuration list for PBXProject "Snozer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094F0B22241D468000A01C97;
+			productRefGroup = 094F0B2C241D468000A01C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094F0B2A241D468000A01C97 /* Snozer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094F0B29241D468000A01C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094F0CEC241D475800A01C97 /* BeatExpertDetailCell.xib in Resources */,
+				094F0C9D241D475700A01C97 /* InviteeFriendCell.xib in Resources */,
+				094F0D60241D475800A01C97 /* Roboto-Bold.ttf in Resources */,
+				094F0CC1241D475700A01C97 /* CreateTeamTCell.xib in Resources */,
+				094F0C81241D475700A01C97 /* WinningBreakUpOptionVC.xib in Resources */,
+				094F0C74241D475700A01C97 /* OfferImageCell.xib in Resources */,
+				09E0BCAB241E227B00C3A6BB /* Main.storyboard in Resources */,
+				094F0CF3241D475800A01C97 /* MatchScoreTCell.xib in Resources */,
+				094F0CED241D475800A01C97 /* LeaderboardCell.xib in Resources */,
+				094F0D00241D475800A01C97 /* ContestTCell.xib in Resources */,
+				094F0CAD241D475700A01C97 /* UploadProofTableViewCell.xib in Resources */,
+				094F0CF2241D475800A01C97 /* ContestDetailCompletedCell.xib in Resources */,
+				094F0C92241D475700A01C97 /* PlayerRealInfoCell.xib in Resources */,
+				094F0C6D241D475700A01C97 /* MatchCenterHeaderCell.xib in Resources */,
+				094F0C76241D475700A01C97 /* HeaderImagesView.xib in Resources */,
+				094F0D59241D475800A01C97 /* Roboto-Regular.ttf in Resources */,
+				094F0CD8241D475800A01C97 /* PostTCell.xib in Resources */,
+				094F0C8E241D475700A01C97 /* PrivateContestHeader.xib in Resources */,
+				094F0C94241D475700A01C97 /* TeamSelectTCell.xib in Resources */,
+				094F0D58241D475800A01C97 /* Roboto-Light.ttf in Resources */,
+				094F0D5F241D475800A01C97 /* Roboto-BlackItalic.ttf in Resources */,
+				094F0D62241D475800A01C97 /* Roboto-Black.ttf in Resources */,
+				094F0C75241D475700A01C97 /* NoDataCell.xib in Resources */,
+				094F0C78241D475700A01C97 /* ContestJoinedTCell.xib in Resources */,
+				094F0D52241D475800A01C97 /* More.storyboard in Resources */,
+				094F0D57241D475800A01C97 /* Roboto-Medium.ttf in Resources */,
+				094F0D11241D475800A01C97 /* NavHeaderView.xib in Resources */,
+				094F0CAA241D475700A01C97 /* cellCashContestEarnings.xib in Resources */,
+				094F0D5A241D475800A01C97 /* Roboto-MediumItalic.ttf in Resources */,
+				094F0D61241D475800A01C97 /* Roboto-Thin.ttf in Resources */,
+				094F0D54241D475800A01C97 /* Account.storyboard in Resources */,
+				094F0CA5241D475700A01C97 /* SF11App.ipa in Resources */,
+				094F0D5B241D475800A01C97 /* Roboto-ThinItalic.ttf in Resources */,
+				094F0CC3241D475700A01C97 /* CreateTeamPlayerStatsCell.xib in Resources */,
+				094F0C96241D475700A01C97 /* TeamTCell.xib in Resources */,
+				094F0D4C241D475800A01C97 /* Assets.xcassets in Resources */,
+				094F0CD9241D475800A01C97 /* LeaderBoardTCell.xib in Resources */,
+				094F0D5E241D475800A01C97 /* Roboto-Italic.ttf in Resources */,
+				094F0C82241D475700A01C97 /* ChooseWinningBreakVC.xib in Resources */,
+				094F0CA9241D475700A01C97 /* KYCInputTableViewCell.xib in Resources */,
+				094F0C7B241D475700A01C97 /* PlayerStatsCell.xib in Resources */,
+				094F0CDE241D475800A01C97 /* RecentTransactionTableViewCell.xib in Resources */,
+				094F0C7C241D475700A01C97 /* PlayerScoreTCell.xib in Resources */,
+				094F0C8B241D475700A01C97 /* PrivateWinningTCell.xib in Resources */,
+				094F0CFE241D475800A01C97 /* BeatTheExpertTCell.xib in Resources */,
+				094F0CE3241D475800A01C97 /* NotificationTCell.xib in Resources */,
+				094F0C8C241D475700A01C97 /* InviteContestTCell.xib in Resources */,
+				189633E6245016AA0003AAAA /* GoogleService-Info.plist in Resources */,
+				094F0D5C241D475800A01C97 /* Roboto-BoldItalic.ttf in Resources */,
+				094F0CAB241D475700A01C97 /* MoreTCell.xib in Resources */,
+				094F0CEB241D475800A01C97 /* ContestDetailCell.xib in Resources */,
+				094F0D05241D475800A01C97 /* CategoryHeaderCell.xib in Resources */,
+				094F0CDD241D475800A01C97 /* FollowTCell.xib in Resources */,
+				094F0C6C241D475700A01C97 /* MatchTCell.xib in Resources */,
+				094F0CA6241D475700A01C97 /* Packaging.log in Resources */,
+				094F0B44241D46F600A01C97 /* LaunchScreen.storyboard in Resources */,
+				094F0CFF241D475800A01C97 /* ContestViewMoreFooter.xib in Resources */,
+				094F0D53241D475800A01C97 /* Initial.storyboard in Resources */,
+				094F0CBF241D475700A01C97 /* SelectedCaptionTCell.xib in Resources */,
+				094F0CE1241D475800A01C97 /* RecentTransactionDate.xib in Resources */,
+				094F0C73241D475700A01C97 /* ImageCollectionCell.xib in Resources */,
+				094F0D5D241D475800A01C97 /* Roboto-LightItalic.ttf in Resources */,
+				094F0CBB241D475700A01C97 /* PlayerLayoutCollectionViewCell.xib in Resources */,
+				094F0CF4241D475800A01C97 /* LeaderboardHeaderCell.xib in Resources */,
+				094F0CB9241D475700A01C97 /* PlayerTypeCell.xib in Resources */,
+				094F0CA7241D475700A01C97 /* ExportOptions.plist in Resources */,
+				094F0C86241D475700A01C97 /* PrivateCreateContestTCell.xib in Resources */,
+				094F0CE4241D475800A01C97 /* SeriesContestTCell.xib in Resources */,
+				094F0CA4241D475700A01C97 /* KYCInputMessageTableViewCell.xib in Resources */,
+				094F0C89241D475700A01C97 /* WinningBreakupOptionTCell.xib in Resources */,
+				094F0CA8241D475700A01C97 /* DistributionSummary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D5D3A0D60441DB96BA42203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snozer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0F27BEDA692F392758E8B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snozer/Pods-Snozer-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snozer/Pods-Snozer-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snozer/Pods-Snozer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83DC0C5962E2EFE606560FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snozer/Pods-Snozer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snozer/Pods-Snozer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snozer/Pods-Snozer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094F0B27241D468000A01C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094F0CBE241D475700A01C97 /* CreateTeamPlayerStatsCell.swift in Sources */,
+				094F0CBC241D475700A01C97 /* TeamPreviewController.swift in Sources */,
+				094F0D19241D475800A01C97 /* GradientProgress.swift in Sources */,
+				094F0D1D241D475800A01C97 /* TourPoints.swift in Sources */,
+				094F0D47241D475800A01C97 /* ConfigurationFile.swift in Sources */,
+				094F0CF9241D475800A01C97 /* JoinedContestVC.swift in Sources */,
+				094F0C9C241D475700A01C97 /* InviteeFriendsVC.swift in Sources */,
+				094F0C9A241D475700A01C97 /* MyNavigationController.swift in Sources */,
+				094F0CDC241D475800A01C97 /* PostTCell.swift in Sources */,
+				094F0C6E241D475700A01C97 /* OfferImageCell.swift in Sources */,
+				094F0CC7241D475700A01C97 /* CreateKabaddiTeamVC.swift in Sources */,
+				094F0CF8241D475800A01C97 /* ContestDetailVC.swift in Sources */,
+				094F0CB3241D475700A01C97 /* MoreVC.swift in Sources */,
+				094F0D3A241D475800A01C97 /* PaidLeague.swift in Sources */,
+				094F0CA1241D475700A01C97 /* CustomerFeedsVC.swift in Sources */,
+				094F0D0A241D475800A01C97 /* CustomDismissAnimationController.swift in Sources */,
+				094F0D09241D475800A01C97 /* SceneDelegate.swift in Sources */,
+				094F0D35241D475800A01C97 /* Jointeam.swift in Sources */,
+				094F0CD7241D475800A01C97 /* FollowersVC.swift in Sources */,
+				094F0D07241D475800A01C97 /* JoinConfirmContestVC.swift in Sources */,
+				094F0CF1241D475800A01C97 /* BeatExpertDetailCell.swift in Sources */,
+				094F0CE2241D475800A01C97 /* FollowTCell.swift in Sources */,
+				094F0C84241D475700A01C97 /* WinningBreakUpOptionVC.swift in Sources */,
+				094F0CDA241D475800A01C97 /* LeaderBoardTCell.swift in Sources */,
+				094F0D2E241D475800A01C97 /* CustomerInfoDto.swift in Sources */,
+				094F0D38241D475800A01C97 /* teamPrevieModal.swift in Sources */,
+				094F0D4D241D475800A01C97 /* Extensions.swift in Sources */,
+				094F0D1F241D475800A01C97 /* LeaguePlayerPoints.swift in Sources */,
+				094F0D3B241D475800A01C97 /* ContestLeaderboardData.swift in Sources */,
+				094F0CEE241D475800A01C97 /* ContestDetailCell.swift in Sources */,
+				094F0D29241D475800A01C97 /* HomeMatchList.swift in Sources */,
+				094F0C77241D475700A01C97 /* HomeVC.swift in Sources */,
+				094F0C9F241D475700A01C97 /* KYCEmailMobileViewController.swift in Sources */,
+				094F0D22241D475800A01C97 /* LoginModel.swift in Sources */,
+				094F0CF5241D475800A01C97 /* MatchScoreTCell.swift in Sources */,
+				094F0D4F241D475800A01C97 /* Utility.swift in Sources */,
+				094F0D18241D475800A01C97 /* ActiveType.swift in Sources */,
+				094F0D06241D475800A01C97 /* ContestVC.swift in Sources */,
+				094F0CC6241D475700A01C97 /* CreateTeamPlayerStatsVC.swift in Sources */,
+				094F0CB7241D475700A01C97 /* KYCViewController.swift in Sources */,
+				094F0CC8241D475700A01C97 /* OtpVerifyVC.swift in Sources */,
+				094F0C6B241D475700A01C97 /* HeaderImagesView.swift in Sources */,
+				094F0D44241D475800A01C97 /* CustomIconDto.swift in Sources */,
+				094F0C7F241D475700A01C97 /* PlayerStatsVC.swift in Sources */,
+				094F0D03241D475800A01C97 /* ContestTCell.swift in Sources */,
+				094F0D3D241D475800A01C97 /* LeagueLiveData.swift in Sources */,
+				094F0CF6241D475800A01C97 /* ContestDetailCompletedCell.swift in Sources */,
+				094F0CE9241D475800A01C97 /* AllUserReactionsVC.swift in Sources */,
+				094F0D2C241D475800A01C97 /* NotificationDto.swift in Sources */,
+				094F0D25241D475800A01C97 /* CommonDto.swift in Sources */,
+				094F0CD5241D475800A01C97 /* TransactionHistoryVC.swift in Sources */,
+				094F0C8D241D475700A01C97 /* PrivateContestHeader.swift in Sources */,
+				094F0C95241D475700A01C97 /* PlayerRealInfoCell.swift in Sources */,
+				094F0D1C241D475800A01C97 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				094F0CCE241D475700A01C97 /* CustomerInfoVC.swift in Sources */,
+				094F0CF0241D475800A01C97 /* LeaderboardHeaderCell.swift in Sources */,
+				094F0C70241D475700A01C97 /* NoDataCell.swift in Sources */,
+				094F0D55241D475800A01C97 /* AppDelegate.swift in Sources */,
+				094F0D2A241D475800A01C97 /* HeaderModal.swift in Sources */,
+				094F0D0D241D475800A01C97 /* EMAlertAction.swift in Sources */,
+				094F0CD3241D475800A01C97 /* AvtarSelectionVC.swift in Sources */,
+				094F0CE0241D475800A01C97 /* RecentTransactionTableViewCell.swift in Sources */,
+				094F0CFB241D475800A01C97 /* StartedContestsVC.swift in Sources */,
+				094F0D32241D475800A01C97 /* BankAccountInfo.swift in Sources */,
+				094F0D17241D475800A01C97 /* ActiveBuilder.swift in Sources */,
+				094F0CB4241D475700A01C97 /* HelpDeskVC.swift in Sources */,
+				094F0D13241D475800A01C97 /* KMPlaceholderTextView.swift in Sources */,
+				094F0D15241D475800A01C97 /* RegexParser.swift in Sources */,
+				094F0C79241D475700A01C97 /* PlayerStatsCell.swift in Sources */,
+				094F0CD2241D475800A01C97 /* LeaderBoardVC.swift in Sources */,
+				094F0D39241D475800A01C97 /* AddCashCallbackDto.swift in Sources */,
+				094F0D24241D475800A01C97 /* PlayerStatsDto.swift in Sources */,
+				094F0D4E241D475800A01C97 /* Common.swift in Sources */,
+				094F0C71241D475700A01C97 /* ImageCollectionCell.swift in Sources */,
+				094F0C7D241D475700A01C97 /* ContestJoinedTCell.swift in Sources */,
+				094F0D43241D475800A01C97 /* UserRequestModel.swift in Sources */,
+				094F0D26241D475800A01C97 /* ResponseDto.swift in Sources */,
+				094F0C83241D475700A01C97 /* ChooseWinningBreakVC.swift in Sources */,
+				094F0CCC241D475700A01C97 /* SignUpVC.swift in Sources */,
+				094F0C93241D475700A01C97 /* TeamSelectTCell.swift in Sources */,
+				094F0C72241D475700A01C97 /* MatchTCell.swift in Sources */,
+				094F0C80241D475700A01C97 /* MyContestVC.swift in Sources */,
+				094F0C9B241D475700A01C97 /* KYCPanBankViewController.swift in Sources */,
+				094F0CE5241D475800A01C97 /* PostListVC.swift in Sources */,
+				094F0CC4241D475700A01C97 /* CreateTeamVC.swift in Sources */,
+				094F0D28241D475800A01C97 /* LeaderboardDto.swift in Sources */,
+				094F0D27241D475800A01C97 /* ReferralDto.swift in Sources */,
+				094F0CF7241D475800A01C97 /* BeatExpertWinningBreakupVC.swift in Sources */,
+				094F0C98241D475700A01C97 /* MyTeamVC.swift in Sources */,
+				094F0D4A241D475800A01C97 /* Messages.swift in Sources */,
+				094F0D34241D475800A01C97 /* PlayerList.swift in Sources */,
+				094F0D31241D475800A01C97 /* TxnHistory.swift in Sources */,
+				094F0D08241D475800A01C97 /* BeatTheExpertJoinVC.swift in Sources */,
+				094F0CB2241D475700A01C97 /* MyWebVC.swift in Sources */,
+				094F0CD4241D475800A01C97 /* ChangePasswordVC.swift in Sources */,
+				094F0CB5241D475700A01C97 /* ContestInviteVC.swift in Sources */,
+				094F0D2D241D475800A01C97 /* ProfileUserInfo.swift in Sources */,
+				094F0D33241D475800A01C97 /* AccountInfo.swift in Sources */,
+				094F0D37241D475800A01C97 /* SavedTeamModal.swift in Sources */,
+				094F0D0B241D475800A01C97 /* EMAlertController.swift in Sources */,
+				094F0D0E241D475800A01C97 /* UIColor+EMAlertController.swift in Sources */,
+				094F0CFD241D475800A01C97 /* WinningBreakupsVC.swift in Sources */,
+				094F0CCB241D475700A01C97 /* ResetPasswordVC.swift in Sources */,
+				094F0C88241D475700A01C97 /* InviteContestTCell.swift in Sources */,
+				094F0D46241D475800A01C97 /* MainService.swift in Sources */,
+				094F0CEF241D475800A01C97 /* LeaderboardCell.swift in Sources */,
+				094F0D40241D475800A01C97 /* LeaugeDetail.swift in Sources */,
+				094F0CC5241D475700A01C97 /* CreateFootballTeamVC.swift in Sources */,
+				094F0CD6241D475800A01C97 /* SeriesCustomerMatchVC.swift in Sources */,
+				094F0D0F241D475800A01C97 /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				094F0CB8241D475700A01C97 /* PlayerTypeCell.swift in Sources */,
+				094F0C8A241D475700A01C97 /* WinningBreakupOptionTCell.swift in Sources */,
+				094F0D21241D475800A01C97 /* PostShareDto.swift in Sources */,
+				094F0CDB241D475800A01C97 /* NotificationTCell.swift in Sources */,
+				094F0D48241D475800A01C97 /* ProfileService.swift in Sources */,
+				094F0CCA241D475700A01C97 /* LandingVC.swift in Sources */,
+				094F0C99241D475700A01C97 /* CustomTabbarViewController.swift in Sources */,
+				094F0D56241D475800A01C97 /* constant.swift in Sources */,
+				094F0C90241D475700A01C97 /* PlayerRealInfoVC.swift in Sources */,
+				094F0CAC241D475700A01C97 /* UploadProofTableViewCell.swift in Sources */,
+				094F0CE7241D475800A01C97 /* NotificationVC.swift in Sources */,
+				094F0C6F241D475700A01C97 /* MatchCenterHeaderCell.swift in Sources */,
+				094F0CD0241D475800A01C97 /* EditProfleVC.swift in Sources */,
+				094F0CBD241D475700A01C97 /* SelectedCaptionVC.swift in Sources */,
+				094F0D36241D475800A01C97 /* PlayerData.swift in Sources */,
+				094F0CCD241D475700A01C97 /* SplashController.swift in Sources */,
+				094F0D16241D475800A01C97 /* StringTrimExtension.swift in Sources */,
+				094F0CA0241D475700A01C97 /* InviteFriendsVC.swift in Sources */,
+				094F0D2F241D475800A01C97 /* AmountDetail.swift in Sources */,
+				094F0CB6241D475700A01C97 /* CashContestEarningVC.swift in Sources */,
+				094F0D23241D475800A01C97 /* PrivateWinningOptionDto.swift in Sources */,
+				094F0D10241D475800A01C97 /* NavHeaderView.swift in Sources */,
+				094F0CFA241D475800A01C97 /* ShareContestVC.swift in Sources */,
+				094F0CA3241D475700A01C97 /* KYCInputMessageTableViewCell.swift in Sources */,
+				094F0C85241D475700A01C97 /* PrivateWinningTCell.swift in Sources */,
+				094F0C8F241D475700A01C97 /* PrivateContestVC.swift in Sources */,
+				094F0CB1241D475700A01C97 /* WalletVC.swift in Sources */,
+				094F0D1E241D475800A01C97 /* MatchPoint.swift in Sources */,
+				094F0CE8241D475800A01C97 /* AccountVC.swift in Sources */,
+				094F0D3E241D475800A01C97 /* ContestCateModel.swift in Sources */,
+				094F0CC9241D475700A01C97 /* LoginWithEmailVC.swift in Sources */,
+				094F0CBA241D475700A01C97 /* PlayerLayoutCollectionViewCell.swift in Sources */,
+				094F0D45241D475800A01C97 /* UserService.swift in Sources */,
+				094F0CC0241D475700A01C97 /* CreateTeamTCell.swift in Sources */,
+				094F0D1B241D475800A01C97 /* UITextField+fixCaretPosition.swift in Sources */,
+				094F0CD1241D475800A01C97 /* AddCashVC.swift in Sources */,
+				094F0C7A241D475700A01C97 /* PlayerScoreTCell.swift in Sources */,
+				094F0CEA241D475800A01C97 /* TeamListJoinContestVC.swift in Sources */,
+				094F0CAF241D475700A01C97 /* KYCInputTableViewCell.swift in Sources */,
+				094F0D3C241D475800A01C97 /* ContestCompleteDetail.swift in Sources */,
+				094F0CAE241D475700A01C97 /* cellCashContestEarnings.swift in Sources */,
+				094F0D30241D475800A01C97 /* Refer.swift in Sources */,
+				094F0C87241D475700A01C97 /* PrivateCreateContestTCell.swift in Sources */,
+				094F0D2B241D475800A01C97 /* SplashVersion2.swift in Sources */,
+				094F0D0C241D475800A01C97 /* EMAlertTextField.swift in Sources */,
+				094F0CCF241D475800A01C97 /* RecentTransactionsViewController.swift in Sources */,
+				094F0D04241D475800A01C97 /* ContestViewMoreFooter.swift in Sources */,
+				094F0CA2241D475700A01C97 /* WithdrawalViewController.swift in Sources */,
+				094F0CC2241D475700A01C97 /* SelectedCaptionTCell.swift in Sources */,
+				094F0C97241D475700A01C97 /* ShareTeamVC.swift in Sources */,
+				094F0D50241D475800A01C97 /* ViewController.swift in Sources */,
+				094F0CE6241D475800A01C97 /* ReactionListVC.swift in Sources */,
+				094F0C7E241D475700A01C97 /* PlayerRealScoreVC.swift in Sources */,
+				094F0D42241D475800A01C97 /* MatchScoreDto.swift in Sources */,
+				094F0C9E241D475700A01C97 /* InviteeFriendCell.swift in Sources */,
+				094F0D01241D475800A01C97 /* CategoryHeaderCell.swift in Sources */,
+				094F0D49241D475800A01C97 /* HomeService.swift in Sources */,
+				094F0D20241D475800A01C97 /* LivePlayerPoints.swift in Sources */,
+				094F0CFC241D475800A01C97 /* TeamSelectionViewController.swift in Sources */,
+				094F0C91241D475700A01C97 /* TeamTCell.swift in Sources */,
+				094F0D1A241D475800A01C97 /* SkyFloatingLabelTextField.swift in Sources */,
+				094F0CB0241D475700A01C97 /* MoreTCell.swift in Sources */,
+				094F0D41241D475800A01C97 /* GameDto.swift in Sources */,
+				094F0D12241D475800A01C97 /* CustomPresentAnimationController.swift in Sources */,
+				094F0D02241D475800A01C97 /* BeatTheExpertTCell.swift in Sources */,
+				094F0D3F241D475800A01C97 /* JoinedStartedMatchModal.swift in Sources */,
+				094F0D14241D475800A01C97 /* ActiveLabel.swift in Sources */,
+				094F0CDF241D475800A01C97 /* SeriesContestTCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		094F0B42241D46F500A01C97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094F0B43241D46F500A01C97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		094F0C56241D475700A01C97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094F0C57241D475700A01C97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094F0B3D241D469000A01C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		094F0B3E241D469000A01C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094F0B40241D469000A01C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844693F56D15B7FDA9EDFA61 /* Pods-Snozer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Snozer/Snozer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = K7SGB8C984;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Snozer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamTeamdev.rglabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snozer/Snozer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094F0B41241D469000A01C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C17467F3BE3C0B0CD4E324F /* Pods-Snozer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Snozer/Snozer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = K7SGB8C984;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Snozer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamTeamdev.rglabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snozer/Snozer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094F0B26241D468000A01C97 /* Build configuration list for PBXProject "Snozer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094F0B3D241D469000A01C97 /* Debug */,
+				094F0B3E241D469000A01C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094F0B3F241D469000A01C97 /* Build configuration list for PBXNativeTarget "Snozer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094F0B40241D469000A01C97 /* Debug */,
+				094F0B41241D469000A01C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094F0B23241D468000A01C97 /* Project object */;
+}

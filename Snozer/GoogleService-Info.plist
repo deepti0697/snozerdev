@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>394656611433-4isvd1b4ps51a3ai3q956hh19jege51a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.394656611433-4isvd1b4ps51a3ai3q956hh19jege51a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>394656611433-c7gj15h8t8qcqqogomdng78b3487g5ao.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLz9B-g5DEKA1_If3_XlE_ydPj33Stl2k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>394656611433</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.calieo.snozer</string>
+	<key>PROJECT_ID</key>
+	<string>snozer-8b50a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>snozer-8b50a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:394656611433:ios:79ce8c572fc7aa43f176f8</string>
+	<key>DATABASE_URL</key>
+	<string>https://snozer-8b50a.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WinningBreakUpOptionVC" customModule="Snozer" customModuleProvider="target">
+            <connections>
+                <outlet property="lblTitleStmt" destination="D78-Tr-BMl" id="ZaA-v4-Q14"/>
+                <outlet property="tblWinnerOptions" destination="2Pa-l6-pgZ" id="i4F-Ka-gqh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vwHeader" destination="Yof-by-FRD" id="xO2-BV-PtT"/>
+                <outlet property="vwUpper" destination="QPm-57-g4T" id="2sn-1q-RwT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yof-by-FRD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="iq3-NF-0W1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPm-57-g4T">
+                    <rect key="frame" x="0.0" y="70" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose total no. of winners" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D78-Tr-BMl">
+                            <rect key="frame" x="99.5" y="11.5" width="176.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="D78-Tr-BMl" firstAttribute="centerY" secondItem="QPm-57-g4T" secondAttribute="centerY" id="NkJ-Sx-pOn"/>
+                        <constraint firstAttribute="height" constant="40" id="hkT-Ab-AHJ"/>
+                        <constraint firstItem="D78-Tr-BMl" firstAttribute="centerX" secondItem="QPm-57-g4T" secondAttribute="centerX" id="rDJ-M1-50Q"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Pa-l6-pgZ">
+                    <rect key="frame" x="10" y="130" width="355" height="517"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="eVF-QE-kFY"/>
+                        <outlet property="delegate" destination="-1" id="kZN-sy-McX"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2Pa-l6-pgZ" secondAttribute="bottom" constant="20" id="463-R9-E4r"/>
+                <constraint firstItem="Yof-by-FRD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="88k-a1-9r1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QPm-57-g4T" secondAttribute="trailing" id="ETV-Cp-nkk"/>
+                <constraint firstItem="2Pa-l6-pgZ" firstAttribute="top" secondItem="QPm-57-g4T" secondAttribute="bottom" constant="20" id="GbG-G6-OKs"/>
+                <constraint firstItem="QPm-57-g4T" firstAttribute="top" secondItem="Yof-by-FRD" secondAttribute="bottom" constant="6" id="Lsl-ei-YS3"/>
+                <constraint firstItem="QPm-57-g4T" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OeP-m1-eWF"/>
+                <constraint firstAttribute="trailing" secondItem="Yof-by-FRD" secondAttribute="trailing" id="Q61-y6-PWJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2Pa-l6-pgZ" secondAttribute="trailing" constant="10" id="TVd-UM-dec"/>
+                <constraint firstItem="Yof-by-FRD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YDJ-Mb-2OV"/>
+                <constraint firstItem="2Pa-l6-pgZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="x0t-ml-ivi"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133" y="154"/>
+        </view>
+    </objects>
+</document>

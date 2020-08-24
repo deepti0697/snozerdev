@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UploadProofTableViewCell" rowHeight="262" id="KGk-i7-Jjw" customClass="UploadProofTableViewCell" customModule="Snozer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="259"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="259"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j7k-4i-3Hk">
+                        <rect key="frame" x="10" y="10" width="300" height="251.5"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJp-nk-4kd">
+                                <rect key="frame" x="10" y="44" width="280" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pancard" translatesAutoresizingMaskIntoConstraints="NO" id="Jed-qc-zr6">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="200"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="0.45447293133802819" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYW-3e-ELG">
+                                        <rect key="frame" x="0.0" y="155" width="280" height="45"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.48962918133802819" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="gd7-bY-wok"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="UPLOAD PAN CARD IMAGE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.19952134683098591" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Jed-qc-zr6" secondAttribute="trailing" id="0eA-QW-Y0t"/>
+                                    <constraint firstAttribute="trailing" secondItem="wYW-3e-ELG" secondAttribute="trailing" id="Jvh-sa-djj"/>
+                                    <constraint firstItem="Jed-qc-zr6" firstAttribute="top" secondItem="lJp-nk-4kd" secondAttribute="top" id="Vhs-L0-r48"/>
+                                    <constraint firstItem="wYW-3e-ELG" firstAttribute="leading" secondItem="lJp-nk-4kd" secondAttribute="leading" id="X1r-hc-2sL"/>
+                                    <constraint firstItem="Jed-qc-zr6" firstAttribute="leading" secondItem="lJp-nk-4kd" secondAttribute="leading" id="dWq-TY-kqE"/>
+                                    <constraint firstAttribute="bottom" secondItem="wYW-3e-ELG" secondAttribute="bottom" id="oDL-Dp-kD1"/>
+                                    <constraint firstAttribute="height" constant="200" id="pDS-g4-tgG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jed-qc-zr6" secondAttribute="bottom" id="yGD-nO-Fj4"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pancard" translatesAutoresizingMaskIntoConstraints="NO" id="r6W-Pq-McB">
+                                <rect key="frame" x="10" y="10" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="A0s-N0-CQd"/>
+                                    <constraint firstAttribute="width" constant="24" id="tlf-aD-c59"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pan Details Verify" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="est-ob-QXp">
+                                <rect key="frame" x="42" y="14.5" width="101.5" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="ccw-7K-q3U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat Medium" pointSize="13"/>
+                                <color key="textColor" name="AppGrayText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="r6W-Pq-McB" firstAttribute="leading" secondItem="j7k-4i-3Hk" secondAttribute="leading" constant="10" id="DP3-8c-rQz"/>
+                            <constraint firstItem="r6W-Pq-McB" firstAttribute="top" secondItem="j7k-4i-3Hk" secondAttribute="top" constant="10" id="I9t-SF-Htu"/>
+                            <constraint firstItem="est-ob-QXp" firstAttribute="centerY" secondItem="r6W-Pq-McB" secondAttribute="centerY" id="Pbq-OS-flF"/>
+                            <constraint firstAttribute="bottom" secondItem="lJp-nk-4kd" secondAttribute="bottom" constant="7.5" id="gc0-ud-F8A"/>
+                            <constraint firstItem="lJp-nk-4kd" firstAttribute="top" secondItem="r6W-Pq-McB" secondAttribute="bottom" constant="10" id="geM-KD-1rf"/>
+                            <constraint firstItem="lJp-nk-4kd" firstAttribute="leading" secondItem="j7k-4i-3Hk" secondAttribute="leading" constant="10" id="kYs-en-efK"/>
+                            <constraint firstItem="est-ob-QXp" firstAttribute="leading" secondItem="r6W-Pq-McB" secondAttribute="trailing" constant="8" id="p89-XZ-abr"/>
+                            <constraint firstAttribute="trailing" secondItem="lJp-nk-4kd" secondAttribute="trailing" constant="10" id="zEh-co-nVU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="j7k-4i-3Hk" secondAttribute="trailing" constant="10" id="3E2-Xo-C7q"/>
+                    <constraint firstItem="j7k-4i-3Hk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="BJy-oj-K6o"/>
+                    <constraint firstItem="j7k-4i-3Hk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="rxD-LH-B9M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnUpload" destination="wYW-3e-ELG" id="sIP-Wg-kCx"/>
+                <outlet property="img" destination="r6W-Pq-McB" id="qyR-Sk-Mrx"/>
+                <outlet property="imgPic" destination="Jed-qc-zr6" id="gms-yJ-K1n"/>
+                <outlet property="lblHeading" destination="est-ob-QXp" id="a3h-Uf-MUL"/>
+                <outlet property="viewDotted" destination="lJp-nk-4kd" id="gS9-5j-pbF"/>
+                <outlet property="viewParent" destination="j7k-4i-3Hk" id="Bfe-46-5c5"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="251.42428785607197"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_pancard" width="133.33332824707031" height="80"/>
+        <namedColor name="AppGrayText">
+            <color red="0.52156862745098043" green="0.52156862745098043" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
